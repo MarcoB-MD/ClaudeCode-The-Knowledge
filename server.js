@@ -431,7 +431,6 @@ function renderEntryPage(entry) {
     { label: 'Published',  value: formatDate(entry.date_published) },
     { label: 'Started',    value: formatDate(entry.date_started) },
     { label: 'Finished',   value: formatDate(entry.date_ended) },
-    { label: 'Added',      value: formatDate(entry.date_added) },
     entry.isbn ? { label: 'ISBN',   value: entry.isbn } : null,
     entry.url  ? { label: 'Source', value: `<a href="${entry.url}" target="_blank" rel="noopener">${safeHostname(entry.url)}</a>` } : null,
   ].filter(Boolean).filter(m => m.value);
