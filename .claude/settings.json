@@ -1,5 +1,17 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "lsof -ti:3000 > /dev/null 2>&1 || (cd /Users/marco/ClaudeCode_The-Knowledge && nohup npm start > /tmp/knowledge-base-server.log 2>&1 &)",
+            "timeout": 10,
+            "statusMessage": "Starting knowledge base server..."
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
