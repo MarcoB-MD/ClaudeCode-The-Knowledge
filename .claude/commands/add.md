@@ -1,5 +1,5 @@
 ---
-description: Add a new entry to the knowledge base (book, article, podcast, audiobook, or other)
+description: Add a new entry to the knowledge base (book, article, paper, podcast, audiobook, or other)
 argument-hint: Optional — title or brief description of what you're adding
 allowed-tools: [Read, Write, Bash]
 ---
@@ -19,7 +19,7 @@ Ask the user for the following fields. You may ask for all of them at once in a 
 **Required:**
 - Title
 - Author or creator
-- Source type — must be one of: `book`, `article`, `podcast`, `audiobook`, `other`
+- Source type — must be one of: `book`, `article`, `paper`, `podcast`, `audiobook`, `other`
 - Date published — when did this source originally come out? (YYYY-MM-DD)
 - Date started — when did you begin reading/listening? (YYYY-MM-DD; default to today if not specified)
 - Date ended — when did you finish? (YYYY-MM-DD; omit entirely if still in progress)
@@ -32,6 +32,7 @@ Ask the user for the following fields. You may ask for all of them at once in a 
 - URL — for articles and podcast episodes
 - ISBN — for books
 - Notable quotes — any passages worth preserving verbatim
+- PDF file — for `article` and `paper` types only: ask if there is a PDF; if yes, ask for the full file path on disk
 
 If $ARGUMENTS contains a title or description, use it as a starting point and ask only for the missing fields.
 
@@ -63,9 +64,16 @@ Wait for the user's confirmation before proceeding.
 1. Map source_type to folder:
    - `book` → `entries/books/`
    - `article` → `entries/articles/`
+   - `paper` → `entries/papers/`
    - `podcast` → `entries/podcasts/`
    - `audiobook` → `entries/audiobooks/`
    - `other` → `entries/other/`
+
+2b. **PDF handling** (articles and papers only): if the user provided a PDF path:
+   - Build the PDF filename using the same slug: `YYYY-MM-DD_<slug>.pdf`
+   - Run: `cp "/user/provided/path.pdf" "assets/pdfs/YYYY-MM-DD_<slug>.pdf"`
+   - Set `pdf_path: YYYY-MM-DD_<slug>.pdf` in the frontmatter
+   - Read the PDF (`assets/pdfs/YYYY-MM-DD_<slug>.pdf`) so you have access to the full content when populating Summary, Key Ideas, and Notable Quotes — do not ask the user to paste text from it
 
 2. Build the filename:
    - Take today's date in YYYY-MM-DD format
@@ -96,7 +104,7 @@ related:
   - <confirmed-filename.md>
 ```
 
-Include `url:` only if the user provided one. Include `isbn:` only if the user provided one. Do not leave any field blank or with an empty string — omit the field entirely.
+Include `url:` only if the user provided one. Include `isbn:` only if the user provided one. Include `pdf_path:` only for `article` and `paper` types where a PDF was provided. Do not leave any field blank or with an empty string — omit the field entirely.
 
 Then the body:
 
@@ -173,6 +181,6 @@ Example:
 
 ## Conversational Trigger (no /add command)
 
-If a user describes a book, article, podcast, or other source in conversation without typing `/add`, recognize the pattern and ask:
+If a user describes a book, article, paper, podcast, or other source in conversation without typing `/add`, recognize the pattern and ask:
 > "Should I add this as a knowledge base entry?"
 If they say yes, proceed from Step 1.

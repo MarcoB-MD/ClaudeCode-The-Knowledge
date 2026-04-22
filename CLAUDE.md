@@ -72,15 +72,28 @@ Do not announce this orientation process to Marco — just do it silently and be
 entries/
   books/          ← one .md file per book
   articles/       ← one .md file per article
+  papers/         ← one .md file per scientific paper
   podcasts/       ← one .md file per podcast episode
   audiobooks/     ← one .md file per audiobook
   other/          ← anything that doesn't fit above
+assets/
+  pdfs/           ← PDF files for articles and papers (filename matches entry slug)
 _index/
   tags.md         ← master tag index; always kept in sync
 .claude/
   commands/
     add.md        ← /add slash command
 ```
+
+### PDF Workflow
+
+When an `article` or `paper` entry has an associated PDF:
+
+1. The file is stored at `assets/pdfs/<pdf_path>` where `pdf_path` is just the filename (e.g., `2026-04-22_some-paper.pdf`).
+2. It is served at `http://localhost:3000/pdfs/<pdf_path>` and linked from the entry detail page with an "Open PDF" button.
+3. To read the full content, use the Read tool on `assets/pdfs/<pdf_path>`. For PDFs longer than 10 pages, use the `pages` parameter (max 20 pages per request).
+4. When adding a PDF-backed entry: if the user provides a source file path, copy it with `cp "/source/path/file.pdf" "assets/pdfs/YYYY-MM-DD_slug.pdf"`, then set `pdf_path: YYYY-MM-DD_slug.pdf` in the frontmatter.
+5. Never summarize or quote from a PDF without actually reading it via the Read tool — do not rely on memory.
 
 ### Adding an Entry
 
@@ -96,8 +109,10 @@ Do not write entry files directly without following the `/add` procedure — the
 
 **Required:** `title`, `author`, `source_type`, `date_added`, `tags`, `related`  
 **Date fields (include whichever apply):** `date_published` (when the source came out), `date_started` (when Marco began), `date_ended` (when Marco finished — omit if still in progress)  
-**Optional (omit entirely if not applicable):** `url`, `isbn`  
-**`source_type` values:** `book` | `article` | `podcast` | `audiobook` | `other`
+**Optional (omit entirely if not applicable):** `url`, `isbn`, `pdf_path`
+
+**`pdf_path`:** Filename only (e.g., `2026-04-22_some-paper.pdf`). File must be stored in `assets/pdfs/`. Applicable to `article` and `paper` entries.  
+**`source_type` values:** `book` | `article` | `paper` | `podcast` | `audiobook` | `other`
 
 Never leave a field blank or with an empty string — omit it instead.
 

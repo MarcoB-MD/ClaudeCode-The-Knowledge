@@ -18,6 +18,7 @@ const ROOT = __dirname;
 const TYPE_CONFIG = {
   books:      { label: 'Book',      emoji: '📚', color: '#4f46e5' },
   articles:   { label: 'Article',   emoji: '📰', color: '#0891b2' },
+  papers:    { label: 'Paper',     emoji: '📄', color: '#be123c' },
   podcasts:   { label: 'Podcast',   emoji: '🎙️', color: '#7c3aed' },
   audiobooks: { label: 'Audiobook', emoji: '🎧', color: '#059669' },
   other:      { label: 'Other',     emoji: '📌', color: '#d97706' },
@@ -222,6 +223,32 @@ a { color: inherit; text-decoration: none; }
   color: #15803d;
   border: 1px solid #bbf7d0;
 }
+.pdf-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: #fee2e2;
+  color: #be123c;
+  border: 1px solid #fca5a5;
+}
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #be123c;
+  border: 1.5px solid #fca5a5;
+  background: #fff5f5;
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+  margin-top: 0.75rem;
+  width: 100%;
+  transition: background 0.15s, border-color 0.15s;
+}
+.pdf-btn:hover { background: #fee2e2; border-color: #be123c; }
 
 /* ── Empty state ── */
 .empty-state { text-align: center; padding: 4rem 2rem; color: #78716c; grid-column: 1/-1; }
@@ -360,7 +387,10 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
         return `<div class="card" onclick="location.href='/entry/${e.type_folder}/${e.filename}'">
           <div class="card-top">
             <span class="type-badge">${cfg.emoji} ${cfg.label}</span>
-            <span class="card-date">${formatDate(e.date_started || e.date_ended)}</span>
+            <div style="display:flex;gap:0.35rem;align-items:center;">
+              ${e.pdf_path ? '<span class="pdf-badge">PDF</span>' : ''}
+              <span class="card-date">${formatDate(e.date_started || e.date_ended)}</span>
+            </div>
           </div>
           <div class="card-title"><a href="/entry/${e.type_folder}/${e.filename}">${e.title || 'Untitled'}</a></div>
           ${e.author ? `<div class="card-author">${e.author}</div>` : ''}
@@ -471,6 +501,7 @@ function renderEntryPage(entry) {
           </div>`).join('')}
         </div>
         ${tags ? `<div class="entry-tags">${tags}</div>` : ''}
+        ${entry.pdf_path ? `<a class="pdf-btn" href="/pdfs/${encodeURIComponent(entry.pdf_path)}" target="_blank" rel="noopener">📄 Open PDF</a>` : ''}
       </aside>
       <div class="entry-body">${html}</div>
     </div>
@@ -509,6 +540,17 @@ const server = http.createServer((req, res) => {
       return res.end(renderEntryPage(entry));
     }
     res.writeHead(404); return res.end('Entry not found');
+  }
+
+  const pdfM = pathname.match(/^\/pdfs\/([^/]+\.pdf)$/i);
+  if (pdfM) {
+    const fname = path.basename(pdfM[1]);
+    const fp = path.join(ROOT, 'assets', 'pdfs', fname);
+    if (fs.existsSync(fp)) {
+      res.writeHead(200, { 'Content-Type': 'application/pdf', 'Content-Disposition': `inline; filename="${fname}"` });
+      return res.end(fs.readFileSync(fp));
+    }
+    res.writeHead(404); return res.end('PDF not found');
   }
 
   res.writeHead(404); res.end('Not found');
