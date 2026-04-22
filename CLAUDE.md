@@ -87,13 +87,14 @@ _index/
 
 ### PDF Workflow
 
-When an `article` or `paper` entry has an associated PDF:
+For `article` and `paper` entries, Marco drags the PDF directly into the Cursor/Claude Code chat window. When this happens:
 
-1. The file is stored at `assets/pdfs/<pdf_path>` where `pdf_path` is just the filename (e.g., `2026-04-22_some-paper.pdf`).
-2. It is served at `http://localhost:3000/pdfs/<pdf_path>` and linked from the entry detail page with an "Open PDF" button.
-3. To read the full content, use the Read tool on `assets/pdfs/<pdf_path>`. For PDFs longer than 10 pages, use the `pages` parameter (max 20 pages per request).
-4. When adding a PDF-backed entry: if the user provides a source file path, copy it with `cp "/source/path/file.pdf" "assets/pdfs/YYYY-MM-DD_slug.pdf"`, then set `pdf_path: YYYY-MM-DD_slug.pdf` in the frontmatter.
-5. Never summarize or quote from a PDF without actually reading it via the Read tool — do not rely on memory.
+1. Read the PDF content directly from the attachment — no file path needed.
+2. Use the content to populate Key Ideas, Summary, and Notable Quotes. Never rely on memory or training knowledge alone.
+3. Do not set `pdf_path` in the frontmatter for drag-and-drop PDFs (no local copy is made).
+4. For PDFs longer than 10 pages, use the `pages` parameter (max 20 pages per request) when reading.
+
+The `pdf_path` frontmatter field and localhost PDF serving (`assets/pdfs/`) are only used if Marco separately provides a local file path to copy.
 
 ### Adding an Entry
 
