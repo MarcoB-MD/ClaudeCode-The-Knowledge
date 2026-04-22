@@ -91,18 +91,31 @@ For any entry type, Marco can attach screenshots, diagrams, or handwritten notes
 
 1. Marco places the image file in `notes_handwritten/` and tells you the filename.
 2. Read it with the Read tool: `notes_handwritten/<filename>`.
-3. Transcribe the content — diagram structure and labels, flowchart logic, handwritten text — into a `## Diagrams & Notes` section in the entry body.
-4. Embed the image inline using: `![description](/notes/<filename>)` — it is served at `http://localhost:3000/notes/<filename>` and displays on the entry detail page.
-5. Do not scan or access `notes_handwritten/` proactively — only read a file when Marco names it.
+3. Add the filename to the `note_images` list in the entry's frontmatter.
+4. Transcribe the content into a `## Diagrams & Notes` section in the entry body, headed by the filename in bold.
+5. The image is served at `http://localhost:3000/notes/<filename>` and linked from the entry sidebar as a button labelled with the filename — it is not embedded inline in the body.
+6. Do not scan or access `notes_handwritten/` proactively — only read a file when Marco names it.
 
-Format for the section:
+Format for the frontmatter field:
+
+```yaml
+note_images:
+  - IMG_1454.jpeg
+  - IMG_1455.jpeg
+```
+
+Format for the body section:
 
 ```
 ## Diagrams & Notes
 
-![Brief description](/notes/filename.png)
+**IMG_1454.jpeg**
 
-*Transcription:* ...full digital text of the image content...
+...full transcription of this image...
+
+**IMG_1455.jpeg**
+
+...full transcription of this image...
 ```
 
 ### PDF Workflow

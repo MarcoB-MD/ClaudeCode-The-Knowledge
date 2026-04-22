@@ -249,6 +249,8 @@ a { color: inherit; text-decoration: none; }
   transition: background 0.15s, border-color 0.15s;
 }
 .pdf-btn:hover { background: #fee2e2; border-color: #be123c; }
+.img-btn { color: #0369a1; border-color: #7dd3fc; background: #f0f9ff; }
+.img-btn:hover { background: #e0f2fe; border-color: #0369a1; }
 
 /* ── Empty state ── */
 .empty-state { text-align: center; padding: 4rem 2rem; color: #78716c; grid-column: 1/-1; }
@@ -502,6 +504,7 @@ function renderEntryPage(entry) {
         </div>
         ${tags ? `<div class="entry-tags">${tags}</div>` : ''}
         ${entry.pdf_path ? `<a class="pdf-btn" href="/pdfs/${encodeURIComponent(entry.pdf_path)}" target="_blank" rel="noopener">📄 Open PDF</a>` : ''}
+        ${(entry.note_images || []).map(img => `<a class="pdf-btn img-btn" href="/notes/${encodeURIComponent(img)}" target="_blank" rel="noopener">🖼 ${img}</a>`).join('')}
       </aside>
       <div class="entry-body">${html}</div>
     </div>

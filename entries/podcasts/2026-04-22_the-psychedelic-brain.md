@@ -12,6 +12,8 @@ tags:
   - therapy
   - research
   - consciousness
+note_images:
+  - IMG_1454.jpeg
 related: []
 ---
 
@@ -49,23 +51,15 @@ _To be added._
 
 ## Diagrams & Notes
 
-![Handwritten notes — The Psychedelic Brain](/notes/IMG_1454.jpeg)
-
-*Transcription:*
-
-**The Psychedelic Brain — Expectation biases**
+**IMG_1454.jpeg**
 
 - New: Psychedelics → ↑ strong affect (Psych)
   - ↑ stimulating effect [5-HT2AR]
   - → Psycho breaks down (out through)
   - e.g. ↑ strong beliefs / Priors / models
-
-**REBUS → relaxed beliefs under psychedelics**
-
+- REBUS → relaxed beliefs under psychedelics
 - Bayesian Brain / Predictive Model / Free Energy Principle → K. Friston
-
 - Psychedelics relax the precision weighting of beliefs / priors
-- ↑ relaxed beliefs in the brain
-- ↑ Top-Down Control is relaxed
+- ↑ relaxed beliefs in the brain → Top-Down Control is relaxed
 - ↑ disregulate activity in the DMN → Restores
 - DMN → ruminating self-referential / introspective — Normally [reset]

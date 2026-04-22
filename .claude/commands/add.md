@@ -105,7 +105,7 @@ related:
   - <confirmed-filename.md>
 ```
 
-Include `url:` only if the user provided one. Include `isbn:` only if the user provided one. Include `pdf_path:` only for `article` and `paper` types where a PDF was provided. Do not leave any field blank or with an empty string — omit the field entirely.
+Include `url:` only if the user provided one. Include `isbn:` only if the user provided one. Include `pdf_path:` only for `article` and `paper` types where a PDF was provided. Include `note_images:` as a list only if images were provided. Do not leave any field blank or with an empty string — omit the field entirely.
 
 Then the body:
 
