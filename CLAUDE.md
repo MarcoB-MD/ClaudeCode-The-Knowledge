@@ -117,6 +117,22 @@ Update procedure (full rewrite each time):
 
 When adding a new entry, read `_index/tags.md` and count tag overlap with existing entries before writing any files. Entries sharing 2+ tags are strong candidates; 1 tag is a weak candidate. Present top matches to Marco and wait for confirmation. Skip this step if the knowledge base has fewer than 5 entries.
 
+### Inline Date Markers
+
+When adding notes to an existing entry across multiple sessions, prefix each new batch of notes with an italic date label so the chronological trail is visible inside the entry body. Format: `*YYYY-MM-DD*` on its own line immediately before the new content. Example:
+
+```
+## Key Ideas
+
+*2026-04-22*
+- First batch of notes added here.
+
+*2026-04-25*
+- Second batch of notes added in a later session.
+```
+
+Apply this whenever content is added to an entry that already has notes — not for the initial population of a blank entry.
+
 ### Content Rules
 
 - Never invent or add information Marco did not provide (no AI-generated summaries)

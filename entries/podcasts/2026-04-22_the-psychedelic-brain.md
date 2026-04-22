@@ -26,10 +26,12 @@ related: []
 
 ## Summary
 
+*2026-04-22*
 Robin Carhart-Harris discusses what predicts good and bad therapeutic outcomes in psychedelic therapy. Emotional catharsis is the strongest predictor of positive outcomes. Difficult experiences can still lead to good outcomes if the person moves through them — a "hero's journey" arc. Getting stuck in a prolonged negative experience predicts poor outcomes. He also argues that subjective experience is causally real: an intense multi-hour psychedelic experience represents a radical change in brain neurophysiology, and it would be strange if it had no downstream consequences.
 
 ## Key Ideas
 
+*2026-04-22*
 - **Emotional release predicts good outcomes** — crying and strong emotion coming through is the strongest predictor of positive therapeutic results across studies.
 - **Negative experience ≠ bad outcome** — what matters is whether the person moves *through* the struggle. A difficult experience that is overcome (hero's journey arc) can still lead to good outcomes.
 - **Getting stuck is the danger** — 10 hours of unrelenting bad experience ("stuck in the hell realm") is what predicts poor outcomes, not a negative experience per se.
