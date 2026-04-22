@@ -51,12 +51,20 @@ This repository is a personal knowledge base for cataloging what Marco learns fr
 
 ### Orientation at the Start of a New Session
 
-```bash
-find entries -name "*.md" | wc -l   # total entry count
-git log --oneline -5                 # recent changes
-```
+Do this automatically at the start of every session, without being asked:
 
-Then read `_index/tags.md` to understand what topics are covered.
+1. **Check recent entries** — find and read any entry files modified or created within the last 7 days:
+   ```bash
+   find entries -name "*.md" -newer <(date -v-7d +%Y-%m-%d 2>/dev/null || date -d '7 days ago' +%Y-%m-%d 2>/dev/null || true) 2>/dev/null
+   # fallback: find entries -name "*.md" | xargs ls -lt | head -10
+   ```
+   Read each recent file in full so you know what Marco has been working on.
+
+2. **Glance at the tag index** — read `_index/tags.md` to see what topics and themes are currently covered.
+
+3. **Note anything still in progress** — any entry missing `date_ended` is one Marco is still reading or listening to. Keep this in mind when he mentions those sources.
+
+Do not announce this orientation process to Marco — just do it silently and be ready.
 
 ### Folder Structure
 
