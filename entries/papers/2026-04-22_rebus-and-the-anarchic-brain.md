@@ -29,7 +29,15 @@ related:
 
 ## Summary
 
-_To be added._
+Carhart-Harris and Friston propose a unified model — REBUS (Relaxed Beliefs Under Psychedelics) and the anarchic brain — that explains the full range of psychedelic phenomena by integrating two existing frameworks: the free-energy principle and the entropic brain hypothesis.
+
+The brain, under normal conditions, operates as a hierarchical predictive machine. High-level regions (especially the default-mode network, DMN) generate top-down predictions that suppress or constrain incoming sensory and emotional information. This keeps perception and cognition efficient but also rigid. Psychedelics disrupt this hierarchy primarily via agonism at 5-HT2A receptors on deep-layer pyramidal neurons, which are densest in high-level cortex. Activating these receptors increases the excitability and irregularity of these neurons, causing a reliable collapse of prominent low-frequency oscillations (especially alpha), which are the electrophysiological signature of top-down constraint.
+
+The result is a flattening of the brain's energy landscape: high-level priors lose their precision (felt confidence) and their ability to dominate the hierarchy. This is the REBUS component. Simultaneously, bottom-up signals — particularly from intrinsic limbic sources — gain freer passage up the hierarchy. This is the anarchic brain component. The two are inseparable: relaxing the top creates the conditions for the bottom to speak.
+
+The therapeutic relevance is direct. Many psychiatric disorders (depression, OCD, addiction, PTSD) are characterised by pathologically overweighted high-level priors — entrenched negative beliefs about the self, rigid behavioural patterns, or fearful outlooks that have been reinforced over time. Psychedelics work like simulated annealing: the system enters a hot, plastic state in which these overweighted priors are softened and exposed to bottom-up revision. With the right therapeutic context, insight emerges and new, better-fitting beliefs can be consolidated as the drug is metabolised and the system "cools." Acute insight during psilocybin therapy has been found to predict long-term clinical improvement.
+
+At sufficiently high doses, the dissolution of the highest-level prior — the self or ego — produces ego dissolution, near-death-like experiences, and mystical states, all explicable as the complete (temporary) collapse of the brain's dominant compressive model. The paper also distinguishes the psychedelic state from psychosis, compares it with meditative states, and argues that the model applies beyond mental health: any heavily weighted prior — political, religious, or philosophical — is in principle susceptible to revision under psychedelics.
 
 ## Key Ideas
 
