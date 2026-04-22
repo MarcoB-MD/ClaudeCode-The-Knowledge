@@ -29,4 +29,80 @@ This project was initialized on 2026-04-22 with:
 1. `git init` + initial commit of CLAUDE.md
 2. GitHub repo created via `gh repo create` and pushed
 3. `.claude/settings.json` created with the Stop auto-save hook
-4. This CLAUDE.md updated to persist context across sessions
+4. Knowledge base system built (entries, tag index, `/add` command)
+
+---
+
+## Knowledge Management System
+
+This repository is a personal knowledge base for cataloging what Marco learns from books, articles, podcasts, audiobooks, and other sources. Entries are Markdown files with YAML frontmatter. Claude is the interface — Marco describes a source in conversation and Claude creates the structured entry.
+
+### Orientation at the Start of a New Session
+
+```bash
+find entries -name "*.md" | wc -l   # total entry count
+git log --oneline -5                 # recent changes
+```
+
+Then read `_index/tags.md` to understand what topics are covered.
+
+### Folder Structure
+
+```
+entries/
+  books/          ← one .md file per book
+  articles/       ← one .md file per article
+  podcasts/       ← one .md file per podcast episode
+  audiobooks/     ← one .md file per audiobook
+  other/          ← anything that doesn't fit above
+_index/
+  tags.md         ← master tag index; always kept in sync
+.claude/
+  commands/
+    add.md        ← /add slash command
+```
+
+### Adding an Entry
+
+Use `/add` to start the guided flow. If Marco describes a source conversationally without typing `/add`, recognize the pattern and ask "Should I add this as a knowledge base entry?"
+
+Do not write entry files directly without following the `/add` procedure — the tag index will fall out of sync.
+
+### File Naming
+
+`YYYY-MM-DD_slugified-title.md` — date is `date_added` (when the entry is created, not when the source was consumed). Slug: lowercase, spaces → hyphens, no punctuation except hyphens, max 60 chars.
+
+### YAML Frontmatter
+
+**Required:** `title`, `author`, `source_type`, `date_consumed`, `date_added`, `tags`, `related`  
+**Optional (omit entirely if not applicable):** `url`, `isbn`  
+**`source_type` values:** `book` | `article` | `podcast` | `audiobook` | `other`
+
+Never leave a field blank or with an empty string — omit it instead.
+
+### Tag Index Maintenance
+
+`_index/tags.md` is the authoritative record of all tags. Update it every time an entry is added or its tags change. Never leave it stale.
+
+Update procedure (full rewrite each time):
+1. Read the full current `_index/tags.md`
+2. For each tag in the new/changed entry, find or create its H2 section
+3. Add the entry line: `- [Title](../entries/<type>/filename.md) — Author (type, YYYY-MM-DD)`
+4. Re-sort all H2 sections alphabetically by tag name
+5. Update the "Last updated" date at the top
+6. Write the complete file
+
+### Related Entry Suggestions
+
+When adding a new entry, read `_index/tags.md` and count tag overlap with existing entries before writing any files. Entries sharing 2+ tags are strong candidates; 1 tag is a weak candidate. Present top matches to Marco and wait for confirmation. Skip this step if the knowledge base has fewer than 5 entries.
+
+### Content Rules
+
+- Never invent or add information Marco did not provide (no AI-generated summaries)
+- Structure and lightly edit Marco's own words
+- Preserve his voice in the Takeaways section
+- Omit `Notable Quotes` and `Related Entries` body sections if there is no content for them
+
+### GitHub Saving
+
+The Stop hook auto-saves all changes at the end of every session. No manual git operations are needed during normal knowledge-base work.

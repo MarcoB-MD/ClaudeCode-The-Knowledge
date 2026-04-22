@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I{} head -40 {})",
+      "Bash(git *)"
+    ]
+  }
+}
