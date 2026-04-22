@@ -32,7 +32,7 @@ Ask the user for the following fields. You may ask for all of them at once in a 
 - URL — for articles and podcast episodes
 - ISBN — for books
 - Notable quotes — any passages worth preserving verbatim
-- PDF file — for `article` and `paper` types only: ask the user to drag the PDF into the chat window; once they do, read it directly from the attachment to extract key ideas, summary, and notable quotes
+- PDF file — for `article` and `paper` types only: ask for the filename of the PDF inside the `papers_scientific/` folder
 
 If $ARGUMENTS contains a title or description, use it as a starting point and ask only for the missing fields.
 
@@ -69,10 +69,10 @@ Wait for the user's confirmation before proceeding.
    - `audiobook` → `entries/audiobooks/`
    - `other` → `entries/other/`
 
-2b. **PDF handling** (articles and papers only):
-   - Ask the user to drag the PDF into the chat window
-   - Read the PDF content directly from the attachment to populate Key Ideas, Summary, and Notable Quotes — do not ask the user to paste text
-   - Do not set `pdf_path` in the frontmatter (no local file copy is made in the drag-and-drop workflow)
+2b. **PDF handling** (articles and papers only): if the user provided a filename:
+   - Read the PDF with the Read tool at `papers_scientific/<filename>`. For PDFs over 10 pages use the `pages` parameter (max 20 pages per request).
+   - Use the content to populate Key Ideas, Summary, and Notable Quotes — do not ask the user to paste text
+   - Set `pdf_path: <filename>` in the frontmatter
 
 2. Build the filename:
    - Take today's date in YYYY-MM-DD format

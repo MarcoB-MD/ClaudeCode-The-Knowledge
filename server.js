@@ -545,7 +545,7 @@ const server = http.createServer((req, res) => {
   const pdfM = pathname.match(/^\/pdfs\/([^/]+\.pdf)$/i);
   if (pdfM) {
     const fname = path.basename(pdfM[1]);
-    const fp = path.join(ROOT, 'assets', 'pdfs', fname);
+    const fp = path.join(ROOT, 'papers_scientific', fname);
     if (fs.existsSync(fp)) {
       res.writeHead(200, { 'Content-Type': 'application/pdf', 'Content-Disposition': `inline; filename="${fname}"` });
       return res.end(fs.readFileSync(fp));

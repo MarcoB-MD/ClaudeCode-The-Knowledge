@@ -76,8 +76,7 @@ entries/
   podcasts/       ← one .md file per podcast episode
   audiobooks/     ← one .md file per audiobook
   other/          ← anything that doesn't fit above
-assets/
-  pdfs/           ← PDF files for articles and papers (filename matches entry slug)
+papers_scientific/ ← PDF files for articles and papers; Marco places files here manually
 _index/
   tags.md         ← master tag index; always kept in sync
 .claude/
@@ -87,14 +86,11 @@ _index/
 
 ### PDF Workflow
 
-For `article` and `paper` entries, Marco drags the PDF directly into the Cursor/Claude Code chat window. When this happens:
+For `article` and `paper` entries, Marco places PDF files manually in `papers_scientific/` and tells you the filename. When he does:
 
-1. Read the PDF content directly from the attachment — no file path needed.
+1. Read the PDF with the Read tool: `papers_scientific/<filename>`. For PDFs longer than 10 pages use the `pages` parameter (max 20 pages per request).
 2. Use the content to populate Key Ideas, Summary, and Notable Quotes. Never rely on memory or training knowledge alone.
-3. Do not set `pdf_path` in the frontmatter for drag-and-drop PDFs (no local copy is made).
-4. For PDFs longer than 10 pages, use the `pages` parameter (max 20 pages per request) when reading.
-
-The `pdf_path` frontmatter field and localhost PDF serving (`assets/pdfs/`) are only used if Marco separately provides a local file path to copy.
+3. Set `pdf_path: <filename>` in the frontmatter. The server serves it at `http://localhost:3000/pdfs/<filename>` with an "Open PDF" button on the entry detail page.
 
 ### Adding an Entry
 
@@ -112,7 +108,7 @@ Do not write entry files directly without following the `/add` procedure — the
 **Date fields (include whichever apply):** `date_published` (when the source came out), `date_started` (when Marco began), `date_ended` (when Marco finished — omit if still in progress)  
 **Optional (omit entirely if not applicable):** `url`, `isbn`, `pdf_path`
 
-**`pdf_path`:** Filename only (e.g., `2026-04-22_some-paper.pdf`). File must be stored in `assets/pdfs/`. Applicable to `article` and `paper` entries.  
+**`pdf_path`:** Filename only (e.g., `pr.118.017160.pdf`). File must be stored in `papers_scientific/`. Applicable to `article` and `paper` entries.  
 **`source_type` values:** `book` | `article` | `paper` | `podcast` | `audiobook` | `other`
 
 Never leave a field blank or with an empty string — omit it instead.
