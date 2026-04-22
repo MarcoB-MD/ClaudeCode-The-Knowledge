@@ -53,6 +53,34 @@ At sufficiently high doses, the dissolution of the highest-level prior — the s
 - **Criticality** — psychedelics tune the brain toward a critical point between order and disorder, making it maximally sensitive to perturbation (critical slowing). Like a liquid surface vs. a frozen lake — small inputs create large, enduring ripples. This state of heightened plasticity is the mechanistic window for belief revision.
 - **Broader implications** — beyond mental illness, the model predicts that psychedelics can relax any overconfident high-level prior: rigid political, religious, or philosophical beliefs may also be subject to revision. The anarchic brain, by definition, is not selective about which priors it destabilises.
 
+## Key Words
+
+**REBUS (Relaxed Beliefs Under Psychedelics)** — the model's central acronym; the principle that psychedelics relax the precision weighting of high-level prior beliefs, reducing their constraining influence on the rest of the brain's hierarchy. *"Psychedelics work to relax the precision of high-level priors or beliefs, thereby liberating bottom-up information flow."*
+
+**Prior (high-level prior)** — a belief or expectation held by the brain about the causes of sensory input, encoded in the spontaneous activity of higher cortical regions. High-level priors are the most abstract, domain-general ones — including beliefs about the self. *"An important example of a high-level prior is the belief that one has a particular personality and set of characteristics and views."*
+
+**Precision weighting** — the degree of confidence or certainty ascribed to a belief or prediction; formally equivalent to inverse variance. The higher the precision, the more the prior suppresses incoming prediction errors. *"Psychedelics work to relax the precision weighting of pathologically overweighted priors underpinning various expressions of mental illness."*
+
+**Free-energy principle** — Karl Friston's framework describing how living systems resist disorder by minimising surprise (free energy) through optimising internal probabilistic models of their environment. The brain is always trying to predict and explain sensory input to reduce uncertainty. *"The free-energy principle furnishes a unified description of the behavior of autopoietic or living systems… based on their inherent tendency to resist disorder and minimize uncertainty."*
+
+**Entropic brain hypothesis** — Carhart-Harris's earlier model proposing that within certain bounds, the entropy of spontaneous brain activity indexes the richness of conscious experience, and that psychedelics acutely increase both. *"The entropic brain hypothesis proposes that a principal action of classic psychedelics is to increase the entropy of spontaneous brain activity."*
+
+**Hierarchical predictive coding** — a theory of brain function in which higher levels generate top-down predictions and lower levels send up prediction errors; the brain continuously tries to minimise those errors across all levels of the hierarchy. *"Hierarchical predictive coding forms a major part of the free-energy principle and, thus, the REBUS model also."*
+
+**Prediction error** — the mismatch between what the brain predicted and what it actually received from lower levels of the hierarchy. Under psychedelics, prediction errors can travel further up the hierarchy because high-level priors lose their suppressive grip. *"Ascending prediction errors from lower levels of the system… can find freer register in conscious experience, by reaching and impressing on higher levels of the hierarchy."*
+
+**Default-mode network (DMN)** — a high-level brain network associated with self-consciousness, mental time travel, and metacognition; proposed to sit at the top of the brain's functional hierarchy and to be the primary biological substrate of the ego. *"The DMN is a high-level brain network… associated with functionally high-level behaviors — falling broadly under the constructs of perspective taking and metacognition."*
+
+**Ego dissolution** — the experience of losing the sense of a bounded, individual self; occurs at high psychedelic doses when the highest-level priors (self-models encoded by the DMN) are sufficiently disrupted. *"Dissolving high-level priors has implications for the functioning of the rest of the hierarchy — and indeed the integrity of the hierarchy itself."*
+
+**Alpha oscillations** — prominent low-frequency (~10 Hz) brain rhythms associated with top-down inhibition and heavily weighted priors; reliably suppressed by psychedelics, and the degree of suppression correlates with ego dissolution intensity. *"Psychedelics have been found to dramatically decrease prominent low-frequency and therefore high-level brain rhythms such as alpha and beta."*
+
+**Simulated annealing** — a metaphor borrowed from computer science/metallurgy describing how psychedelics create a hot, plastic brain state in which rigid attractor basins (entrenched beliefs) are flattened, enabling the system to discover new, better-fitting configurations before cooling back down. *"This process may be seen as analogous to the phenomenon of simulated annealing… whereby a system is heated such that it attains a state of heightened plasticity."*
+
+**Bayesian model reduction (BMR)** — a mechanism by which the brain prunes overly complex or overfit models, yielding rapid belief revision. Proposed as the neural basis for insight and the lasting changes seen after psychedelic therapy. *"Mechanisms of simulated annealing, the destruction of sharp minima, and Bayesian model reduction can be raised to account for the rapid, marked, and enduring belief changes that can be seen after high-dose psychedelic experience."*
+
+**Criticality** — a dynamical state at the boundary between order and disorder in which a system is maximally sensitive to perturbation and displays long-range correlations. Psychedelics are proposed to push the brain toward this critical point. *"Psychedelics have also been found to tune brain activity closer to criticality, such that it displays more of a scale-free organization."*
+
 ## Personal Takeaways
 
 _To be added._

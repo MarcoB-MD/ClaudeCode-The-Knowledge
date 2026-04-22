@@ -145,6 +145,20 @@ When adding notes to an existing entry across multiple sessions, prefix each new
 
 Apply this whenever content is added to an entry that already has notes — not for the initial population of a blank entry.
 
+### Key Words Section
+
+Each entry may include a `## Key Words` section listing the most important or technical terms from the source. Format — one term per line:
+
+```
+**[Term]** — [Definition as used in this source]. *"[Example sentence from or paraphrased from the source]."*
+```
+
+- For PDF-backed entries: extract key words directly from the text
+- For other entries: suggest candidates based on content the user has shared; the user confirms or adjusts
+- Aim for 5–12 terms per entry — the vocabulary that is load-bearing for understanding this source
+- Definitions should reflect how the term is used *in this specific source*, not a generic dictionary definition
+- Omit the section entirely if no key words are available
+
 ### Content Rules
 
 - Never invent or add information Marco did not provide (no AI-generated summaries)

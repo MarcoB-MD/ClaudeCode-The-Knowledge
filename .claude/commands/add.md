@@ -26,6 +26,7 @@ Ask the user for the following fields. You may ask for all of them at once in a 
 - Tags — ask for 2–6 topic tags; suggest candidates based on what the user tells you about the content; normalize all tags to lowercase-hyphenated form (e.g. "Behavioral Economics" → `behavioral-economics`)
 - Summary — ask the user to share their notes; tell them you will structure them (do not generate a summary yourself)
 - Key ideas — ask for their distilled takeaways in any form; you will turn them into clean bullet points
+- Key words — the most important or technical terms used in this source, each with a short definition and one example sentence showing how the term is used in the source. For PDF-backed entries extract these yourself; for others ask the user or suggest candidates based on what they have shared
 - Personal takeaways — what do they want to remember or apply?
 
 **Optional (ask once; accept "none" or skip):**
@@ -128,6 +129,10 @@ Then the body:
 
 - <distilled idea>
 - <distilled idea>
+
+## Key Words
+
+**<term>** — <definition in the context of this source>. *"<example sentence as it appears or is paraphrased from the source>."*
 
 ## Notable Quotes
 
