@@ -39,6 +39,10 @@ Robin Carhart-Harris discusses what predicts good and bad therapeutic outcomes i
 - **Follow-up psychotherapy may be needed** — to work through psychological residue from difficult sessions.
 - **Subjective experience is causally real** — science has a bias against the subjective, but an intense 10-hour experience *is* a massive neurophysiological event. The content of the experience (rapture, terror, etc.) is part of the causal story of what happens next in the brain.
 
+## Key Words
+
+**Emotional catharsis** — the release of pent-up emotion during a psychedelic session, particularly through crying and intense feeling, identified as the single strongest predictor of positive therapeutic outcomes. *"Emotional catharsis is the strongest predictor of positive outcomes — crying and strong emotion coming through is the strongest predictor of positive therapeutic results across studies."*
+
 ## Personal Takeaways
 
 _To be added._
