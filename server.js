@@ -325,12 +325,13 @@ a { color: inherit; text-decoration: none; }
 
 // ── HTML renderers ─────────────────────────────────────────────────────────────
 
-function renderIndexPage(entries, filterType, filterTag, search) {
+function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
   const allTags = [...new Set(entries.flatMap(e => e.tags || []))].sort();
 
   let filtered = entries;
   if (filterType !== 'all') filtered = filtered.filter(e => e.type_folder === filterType);
-  if (filterTag) filtered = filtered.filter(e => (e.tags || []).includes(filterTag));
+  if (filterTag)  filtered = filtered.filter(e => (e.tags || []).includes(filterTag));
+  if (filterTag2) filtered = filtered.filter(e => (e.tags || []).includes(filterTag2));
   if (search) {
     const q = search.toLowerCase();
     filtered = filtered.filter(e =>
@@ -345,7 +346,8 @@ function renderIndexPage(entries, filterType, filterTag, search) {
     ...Object.entries(TYPE_CONFIG).map(([k, v]) => ({ key: k, label: v.label + 's' })),
   ].map(b => `<button class="filter-btn ${filterType === b.key ? 'active' : ''}" onclick="setType('${b.key}')">${b.label}</button>`).join('');
 
-  const tagOptions = allTags.map(t => `<option value="${t}"${filterTag === t ? ' selected' : ''}>${t}</option>`).join('');
+  const tagOptions  = allTags.map(t => `<option value="${t}"${filterTag  === t ? ' selected' : ''}>${t}</option>`).join('');
+  const tag2Options = allTags.map(t => `<option value="${t}"${filterTag2 === t ? ' selected' : ''}>${t}</option>`).join('');
 
   const cards = filtered.length === 0
     ? `<div class="empty-state">
@@ -392,18 +394,25 @@ function renderIndexPage(entries, filterType, filterTag, search) {
       <span class="filter-label">Type</span>
       ${typeButtons}
       <div class="filter-sep"></div>
-      <span class="filter-label">Tag</span>
+      <span class="filter-label">Theme</span>
       <select class="tag-select" onchange="setTag(this.value)">
-        <option value="">All tags</option>
+        <option value="">All</option>
         ${tagOptions}
+      </select>
+      <div class="filter-sep"></div>
+      <span class="filter-label">Topic</span>
+      <select class="tag-select" onchange="setTag2(this.value)">
+        <option value="">All</option>
+        ${tag2Options}
       </select>
     </div>
     <div class="cards-grid">${cards}</div>
   </div>
   <script>
     const p = new URLSearchParams(location.search);
-    function setType(t) { p.set('type', t); p.delete('tag'); p.delete('q'); location.search = p; }
-    function setTag(t) { t ? p.set('tag', t) : p.delete('tag'); location.search = p; }
+    function setType(t) { p.set('type', t); p.delete('tag'); p.delete('tag2'); p.delete('q'); location.search = p; }
+    function setTag(t)  { t ? p.set('tag',  t) : p.delete('tag');  location.search = p; }
+    function setTag2(t) { t ? p.set('tag2', t) : p.delete('tag2'); location.search = p; }
     let timer;
     function doSearch(q) {
       clearTimeout(timer);
@@ -482,8 +491,9 @@ const server = http.createServer((req, res) => {
     const html = renderIndexPage(
       entries,
       searchParams.get('type') || 'all',
-      searchParams.get('tag') || '',
-      searchParams.get('q') || ''
+      searchParams.get('tag')  || '',
+      searchParams.get('tag2') || '',
+      searchParams.get('q')   || ''
     );
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
     return res.end(html);
