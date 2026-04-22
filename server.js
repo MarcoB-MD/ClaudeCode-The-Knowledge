@@ -59,8 +59,9 @@ function findEntryHref(nameWithoutExt) {
 function formatDate(str) {
   if (!str) return '';
   try {
-    return new Date(str + 'T12:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-  } catch { return str; }
+    const d = str instanceof Date ? str : new Date(str + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  } catch { return String(str); }
 }
 
 function safeHostname(url) {
@@ -358,7 +359,7 @@ function renderIndexPage(entries, filterType, filterTag, search) {
         return `<div class="card" onclick="location.href='/entry/${e.type_folder}/${e.filename}'">
           <div class="card-top">
             <span class="type-badge">${cfg.emoji} ${cfg.label}</span>
-            <span class="card-date">${formatDate(e.date_consumed)}</span>
+            <span class="card-date">${formatDate(e.date_started || e.date_ended)}</span>
           </div>
           <div class="card-title"><a href="/entry/${e.type_folder}/${e.filename}">${e.title || 'Untitled'}</a></div>
           ${e.author ? `<div class="card-author">${e.author}</div>` : ''}
@@ -425,11 +426,13 @@ function renderEntryPage(entry) {
   ).join('');
 
   const metaItems = [
-    { label: 'Author',    value: entry.author },
-    { label: 'Type',      value: `${cfg.emoji} ${cfg.label}` },
-    { label: 'Consumed',  value: formatDate(entry.date_consumed) },
-    { label: 'Added',     value: formatDate(entry.date_added) },
-    entry.isbn ? { label: 'ISBN', value: entry.isbn } : null,
+    { label: 'Author',     value: entry.author },
+    { label: 'Type',       value: `${cfg.emoji} ${cfg.label}` },
+    { label: 'Published',  value: formatDate(entry.date_published) },
+    { label: 'Started',    value: formatDate(entry.date_started) },
+    { label: 'Finished',   value: formatDate(entry.date_ended) },
+    { label: 'Added',      value: formatDate(entry.date_added) },
+    entry.isbn ? { label: 'ISBN',   value: entry.isbn } : null,
     entry.url  ? { label: 'Source', value: `<a href="${entry.url}" target="_blank" rel="noopener">${safeHostname(entry.url)}</a>` } : null,
   ].filter(Boolean).filter(m => m.value);
 

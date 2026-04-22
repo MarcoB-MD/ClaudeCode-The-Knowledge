@@ -86,7 +86,8 @@ Do not write entry files directly without following the `/add` procedure — the
 
 ### YAML Frontmatter
 
-**Required:** `title`, `author`, `source_type`, `date_consumed`, `date_added`, `tags`, `related`  
+**Required:** `title`, `author`, `source_type`, `date_added`, `tags`, `related`  
+**Date fields (include whichever apply):** `date_published` (when the source came out), `date_started` (when Marco began), `date_ended` (when Marco finished — omit if still in progress)  
 **Optional (omit entirely if not applicable):** `url`, `isbn`  
 **`source_type` values:** `book` | `article` | `podcast` | `audiobook` | `other`
 

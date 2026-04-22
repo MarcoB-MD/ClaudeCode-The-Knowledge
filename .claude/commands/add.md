@@ -20,7 +20,9 @@ Ask the user for the following fields. You may ask for all of them at once in a 
 - Title
 - Author or creator
 - Source type — must be one of: `book`, `article`, `podcast`, `audiobook`, `other`
-- Date consumed — when did you finish reading/listening? (YYYY-MM-DD; if approximate, confirm with the user)
+- Date published — when did this source originally come out? (YYYY-MM-DD)
+- Date started — when did you begin reading/listening? (YYYY-MM-DD; default to today if not specified)
+- Date ended — when did you finish? (YYYY-MM-DD; omit entirely if still in progress)
 - Tags — ask for 2–6 topic tags; suggest candidates based on what the user tells you about the content; normalize all tags to lowercase-hyphenated form (e.g. "Behavioral Economics" → `behavioral-economics`)
 - Summary — ask the user to share their notes; tell them you will structure them (do not generate a summary yourself)
 - Key ideas — ask for their distilled takeaways in any form; you will turn them into clean bullet points
@@ -84,7 +86,8 @@ Create the file at the path determined in Step 3. Use this exact structure:
 title: "<title>"
 author: "<author>"
 source_type: <type>
-date_consumed: <YYYY-MM-DD>
+date_published: <YYYY-MM-DD>
+date_started: <YYYY-MM-DD>
 date_added: <today YYYY-MM-DD>
 tags:
   - <tag1>
@@ -104,7 +107,9 @@ Then the body:
 
 **Author:** <author>
 **Type:** <source_type, capitalized>
-**Consumed:** <date_consumed>
+**Published:** <date_published>
+**Started:** <date_started>
+**Finished:** <date_ended — omit this line if still in progress>
 
 ---
 

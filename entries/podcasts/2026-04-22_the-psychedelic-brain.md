@@ -2,7 +2,8 @@
 title: "The Psychedelic Brain"
 author: "Robin Carhart-Harris (guest) · Sam Harris (Waking Up)"
 source_type: podcast
-date_consumed: 2026-04-22
+date_published: 2026-04-21
+date_started: 2026-04-22
 date_added: 2026-04-22
 tags:
   - neuroscience
@@ -18,7 +19,8 @@ related: []
 
 **Author:** Robin Carhart-Harris (guest) · Sam Harris (Waking Up)
 **Type:** Podcast
-**Consumed:** 2026-04-22
+**Published:** 2026-04-21
+**Started:** 2026-04-22
 
 ---
 
