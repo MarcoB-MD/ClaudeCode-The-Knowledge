@@ -46,3 +46,26 @@ Robin Carhart-Harris discusses what predicts good and bad therapeutic outcomes i
 ## Personal Takeaways
 
 _To be added._
+
+## Diagrams & Notes
+
+![Handwritten notes — The Psychedelic Brain](/notes/IMG_1454.jpeg)
+
+*Transcription:*
+
+**The Psychedelic Brain — Expectation biases**
+
+- New: Psychedelics → ↑ strong affect (Psych)
+  - ↑ stimulating effect [5-HT2AR]
+  - → Psycho breaks down (out through)
+  - e.g. ↑ strong beliefs / Priors / models
+
+**REBUS → relaxed beliefs under psychedelics**
+
+- Bayesian Brain / Predictive Model / Free Energy Principle → K. Friston
+
+- Psychedelics relax the precision weighting of beliefs / priors
+- ↑ relaxed beliefs in the brain
+- ↑ Top-Down Control is relaxed
+- ↑ disregulate activity in the DMN → Restores
+- DMN → ruminating self-referential / introspective — Normally [reset]
