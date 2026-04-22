@@ -556,7 +556,7 @@ const server = http.createServer((req, res) => {
   const noteM = pathname.match(/^\/notes\/([^/]+)$/i);
   if (noteM) {
     const fname = path.basename(noteM[1]);
-    const fp = path.join(ROOT, 'notes', fname);
+    const fp = path.join(ROOT, 'notes_handwritten', fname);
     if (fs.existsSync(fp)) {
       const ext = path.extname(fname).toLowerCase();
       const mime = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.webp': 'image/webp', '.svg': 'image/svg+xml' }[ext] || 'application/octet-stream';
