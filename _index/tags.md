@@ -13,6 +13,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## brain
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
+- [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
 
 ## cognitive-bias
 
@@ -21,6 +22,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## consciousness
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
+- [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
 
 ## decision-making
 
@@ -33,6 +35,11 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## neuroscience
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
+- [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
+
+## predictive-processing
+
+- [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
 
 ## probability
 
@@ -41,6 +48,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## psychedelics
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
+- [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
 
 ## psychology
 
@@ -53,6 +61,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## research
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
+- [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
 
 ## risk
 
