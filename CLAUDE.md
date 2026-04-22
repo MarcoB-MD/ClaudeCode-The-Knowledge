@@ -9,6 +9,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Local path:** /Users/marco/ClaudeCode_The-Knowledge
 - **Default branch:** main
 
+## Web Browser View
+
+Run the local web server to browse and read all entries in the browser:
+
+```bash
+npm start          # starts at http://localhost:3000
+```
+
+First time only (or after cloning fresh): run `npm install` first.
+
+The browser UI shows an index of all entries as cards (filterable by type and tag, searchable), and a full detail view for each entry with all fields nicely laid out. The server reads the Markdown files live — no rebuild needed after adding entries.
+
 ## Auto-Save to GitHub
 
 A `Stop` hook is configured in `.claude/settings.json`. Every time a Claude Code session ends, it automatically stages all changes, commits with a timestamp (`Auto-save: YYYY-MM-DD HH:MM`), and pushes to GitHub — but only if there are uncommitted changes. No manual `git commit` or `git push` is needed during normal work.
