@@ -32,13 +32,18 @@ function getAllEntries() {
     if (!fs.existsSync(dir)) continue;
     for (const file of fs.readdirSync(dir).filter(f => f.endsWith('.md'))) {
       try {
-        const raw = fs.readFileSync(path.join(dir, file), 'utf-8');
+        const fp = path.join(dir, file);
+        const raw = fs.readFileSync(fp, 'utf-8');
         const { data, content: body } = matter(raw);
-        entries.push({ ...data, body, filename: file, type_folder: type, config });
+        const mtime = fs.statSync(fp).mtimeMs;
+        entries.push({ ...data, body, filename: file, type_folder: type, config, _mtime: mtime });
       } catch {}
     }
   }
-  return entries.sort((a, b) => new Date(b.date_added || 0) - new Date(a.date_added || 0));
+  return entries.sort((a, b) => {
+    const dateDiff = new Date(b.date_added || 0) - new Date(a.date_added || 0);
+    return dateDiff !== 0 ? dateDiff : (b._mtime || 0) - (a._mtime || 0);
+  });
 }
 
 function findEntryHref(nameWithoutExt) {

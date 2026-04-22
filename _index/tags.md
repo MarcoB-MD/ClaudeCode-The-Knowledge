@@ -6,4 +6,26 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 ---
 
-_No entries yet. Add your first entry with `/add`._
+## brain
+
+- [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (Waking Up) (podcast, 2026-04-22)
+
+## consciousness
+
+- [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (Waking Up) (podcast, 2026-04-22)
+
+## neuroscience
+
+- [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (Waking Up) (podcast, 2026-04-22)
+
+## psychedelics
+
+- [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (Waking Up) (podcast, 2026-04-22)
+
+## research
+
+- [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (Waking Up) (podcast, 2026-04-22)
+
+## therapy
+
+- [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (Waking Up) (podcast, 2026-04-22)
