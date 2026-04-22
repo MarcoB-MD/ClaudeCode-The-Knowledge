@@ -553,6 +553,19 @@ const server = http.createServer((req, res) => {
     res.writeHead(404); return res.end('PDF not found');
   }
 
+  const noteM = pathname.match(/^\/notes\/([^/]+)$/i);
+  if (noteM) {
+    const fname = path.basename(noteM[1]);
+    const fp = path.join(ROOT, 'notes', fname);
+    if (fs.existsSync(fp)) {
+      const ext = path.extname(fname).toLowerCase();
+      const mime = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.webp': 'image/webp', '.svg': 'image/svg+xml' }[ext] || 'application/octet-stream';
+      res.writeHead(200, { 'Content-Type': mime });
+      return res.end(fs.readFileSync(fp));
+    }
+    res.writeHead(404); return res.end('Image not found');
+  }
+
   res.writeHead(404); res.end('Not found');
 });
 

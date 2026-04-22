@@ -77,11 +77,32 @@ entries/
   audiobooks/     ← one .md file per audiobook
   other/          ← anything that doesn't fit above
 papers_scientific/ ← PDF files for articles and papers; Marco places files here manually
+notes/             ← screenshots and images for any entry type; Marco places files here manually
 _index/
   tags.md         ← master tag index; always kept in sync
 .claude/
   commands/
     add.md        ← /add slash command
+```
+
+### Notes & Images Workflow
+
+For any entry type, Marco can attach screenshots, diagrams, or handwritten notes:
+
+1. Marco places the image file in `notes/` and tells you the filename.
+2. Read it with the Read tool: `notes/<filename>`.
+3. Transcribe the content — diagram structure and labels, flowchart logic, handwritten text — into a `## Diagrams & Notes` section in the entry body.
+4. Embed the image inline using: `![description](/notes/<filename>)` — it is served at `http://localhost:3000/notes/<filename>` and displays on the entry detail page.
+5. Do not scan or access `notes/` proactively — only read a file when Marco names it.
+
+Format for the section:
+
+```
+## Diagrams & Notes
+
+![Brief description](/notes/filename.png)
+
+*Transcription:* ...full digital text of the image content...
 ```
 
 ### PDF Workflow

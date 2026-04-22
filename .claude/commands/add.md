@@ -34,6 +34,7 @@ Ask the user for the following fields. You may ask for all of them at once in a 
 - ISBN — for books
 - Notable quotes — any passages worth preserving verbatim
 - PDF file — for `article` and `paper` types only: ask for the filename of the PDF inside the `papers_scientific/` folder
+- Images / notes — for any entry type: ask if there are any screenshots, diagrams, or handwritten notes to attach; if yes, ask for the filename inside the `notes/` folder
 
 If $ARGUMENTS contains a title or description, use it as a starting point and ask only for the missing fields.
 
