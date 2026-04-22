@@ -68,10 +68,9 @@ function safeHostname(url) {
   try { return new URL(url).hostname; } catch { return url; }
 }
 
-function summaryPreview(body, max = 200) {
-  const match = body.match(/## Summary\s+([\s\S]*?)(?=\n## |$)/);
-  const text = (match ? match[1] : body).replace(/[#*>`\[\]_]/g, '').replace(/\n+/g, ' ').trim();
-  return text.length > max ? text.slice(0, max) + '…' : text;
+function lastNotesDate(body) {
+  const matches = [...body.matchAll(/\*(\d{4}-\d{2}-\d{2})\*/g)];
+  return matches.length ? matches[matches.length - 1][1] : null;
 }
 
 // Convert [[filename]] wiki-links to real <a> tags
@@ -356,7 +355,7 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
        </div>`
     : filtered.map(e => {
         const cfg = e.config || TYPE_CONFIG.other;
-        const preview = summaryPreview(e.body);
+        const lastDate = lastNotesDate(e.body) || e.date_added;
         const tags = (e.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
         return `<div class="card" onclick="location.href='/entry/${e.type_folder}/${e.filename}'">
           <div class="card-top">
@@ -365,7 +364,7 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
           </div>
           <div class="card-title"><a href="/entry/${e.type_folder}/${e.filename}">${e.title || 'Untitled'}</a></div>
           ${e.author ? `<div class="card-author">${e.author}</div>` : ''}
-          ${preview ? `<div class="card-preview">${preview}</div>` : ''}
+          ${lastDate ? `<div class="card-preview" style="font-size:0.78rem;color:#a8a29e;">Last updated: ${formatDate(lastDate)}</div>` : ''}
           ${tags ? `<div class="card-footer">${tags}</div>` : ''}
         </div>`;
       }).join('');
