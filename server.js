@@ -338,6 +338,51 @@ a { color: inherit; text-decoration: none; }
 /* Hide repeated title/meta block that's already in the sidebar */
 .entry-body > h1:first-child { display: none; }
 
+/* ── Section headers ── */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.cards-grid + .section-header { margin-top: 2.75rem; }
+.section-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #78716c;
+  white-space: nowrap;
+}
+.section-count {
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: #f5f4f0;
+  color: #78716c;
+  padding: 0.13rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid #e7e5e4;
+}
+.section-divider { flex: 1; height: 1px; background: #e7e5e4; }
+.section-completed .section-title { color: #059669; }
+.section-completed .section-count { background: #f0fdf4; color: #059669; border-color: #bbf7d0; }
+
+/* ── Category hero ── */
+.category-hero {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  border: 1.5px solid #e7e5e4;
+  border-left: 4px solid var(--accent, #4f46e5);
+  margin-bottom: 1.75rem;
+}
+.category-hero-emoji { font-size: 1.75rem; line-height: 1; }
+.category-hero-title { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.02em; color: #1c1917; }
+.category-hero-sub { font-size: 0.82rem; color: #78716c; margin-top: 0.15rem; }
+
 /* ── Responsive ── */
 @media (max-width: 780px) {
   .entry-detail { flex-direction: column; }
@@ -377,29 +422,56 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
   const tagOptions  = allTags.map(t => `<option value="${t}"${filterTag  === t ? ' selected' : ''}>${t}</option>`).join('');
   const tag2Options = allTags.map(t => `<option value="${t}"${filterTag2 === t ? ' selected' : ''}>${t}</option>`).join('');
 
-  const cards = filtered.length === 0
-    ? `<div class="empty-state">
+  const inProgress = filtered.filter(e => !e.date_ended);
+  const completed  = filtered.filter(e =>  e.date_ended);
+
+  const makeCard = (e, isCompleted) => {
+    const cfg = e.config || TYPE_CONFIG.other;
+    const lastDate = lastNotesDate(e.body) || e.date_added;
+    const displayDate = isCompleted ? e.date_ended : (e.date_started || e.date_added);
+    const tags = (e.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+    return `<div class="card" onclick="location.href='/entry/${e.type_folder}/${e.filename}'">
+      <div class="card-top">
+        <span class="type-badge">${cfg.emoji} ${cfg.label}</span>
+        <div style="display:flex;gap:0.35rem;align-items:center;">
+          ${e.pdf_path ? '<span class="pdf-badge">PDF</span>' : ''}
+          <span class="card-date" style="${isCompleted ? 'color:#059669;' : ''}">${isCompleted ? '✓ ' : ''}${formatDate(displayDate)}</span>
+        </div>
+      </div>
+      <div class="card-title"><a href="/entry/${e.type_folder}/${e.filename}">${e.title || 'Untitled'}</a></div>
+      ${e.author ? `<div class="card-author">${e.author}</div>` : ''}
+      ${lastDate ? `<div class="card-preview" style="font-size:0.78rem;color:#a8a29e;">Last updated: ${formatDate(lastDate)}</div>` : ''}
+      ${tags ? `<div class="card-footer">${tags}</div>` : ''}
+    </div>`;
+  };
+
+  const makeSection = (title, entries, isCompleted) => {
+    if (!entries.length) return '';
+    return `<div class="section-header${isCompleted ? ' section-completed' : ''}">
+      <span class="section-title">${isCompleted ? '✓ ' : ''}${title}</span>
+      <span class="section-count">${entries.length}</span>
+      <div class="section-divider"></div>
+    </div>
+    <div class="cards-grid">${entries.map(e => makeCard(e, isCompleted)).join('')}</div>`;
+  };
+
+  const categoryHero = filterType !== 'all' ? (() => {
+    const cfg = TYPE_CONFIG[filterType];
+    return `<div class="category-hero" style="--accent:${cfg.color}">
+      <span class="category-hero-emoji">${cfg.emoji}</span>
+      <div>
+        <div class="category-hero-title">${cfg.label}s</div>
+        <div class="category-hero-sub">${filtered.length} ${filtered.length === 1 ? 'entry' : 'entries'}</div>
+      </div>
+    </div>`;
+  })() : '';
+
+  const mainContent = filtered.length === 0
+    ? `<div class="cards-grid"><div class="empty-state">
         <h3>No entries found</h3>
         <p>Try a different filter, or add your first entry with <code>/add</code> in Claude Code.</p>
-       </div>`
-    : filtered.map(e => {
-        const cfg = e.config || TYPE_CONFIG.other;
-        const lastDate = lastNotesDate(e.body) || e.date_added;
-        const tags = (e.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
-        return `<div class="card" onclick="location.href='/entry/${e.type_folder}/${e.filename}'">
-          <div class="card-top">
-            <span class="type-badge">${cfg.emoji} ${cfg.label}</span>
-            <div style="display:flex;gap:0.35rem;align-items:center;">
-              ${e.pdf_path ? '<span class="pdf-badge">PDF</span>' : ''}
-              <span class="card-date">${formatDate(e.date_started || e.date_ended)}</span>
-            </div>
-          </div>
-          <div class="card-title"><a href="/entry/${e.type_folder}/${e.filename}">${e.title || 'Untitled'}</a></div>
-          ${e.author ? `<div class="card-author">${e.author}</div>` : ''}
-          ${lastDate ? `<div class="card-preview" style="font-size:0.78rem;color:#a8a29e;">Last updated: ${formatDate(lastDate)}</div>` : ''}
-          ${tags ? `<div class="card-footer">${tags}</div>` : ''}
-        </div>`;
-      }).join('');
+       </div></div>`
+    : makeSection('In Progress', inProgress, false) + makeSection('Completed', completed, true);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -437,7 +509,7 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
         ${tag2Options}
       </select>
     </div>
-    <div class="cards-grid">${cards}</div>
+    ${categoryHero}${mainContent}
   </div>
   <script>
     const p = new URLSearchParams(location.search);
