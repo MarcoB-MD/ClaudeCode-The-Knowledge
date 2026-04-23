@@ -4,6 +4,7 @@ author: "Nicholas Nelson, Taylor Yeater, Ted Schaeffer, Peter Attia"
 source_type: article
 date_published: 2026-04-18
 date_started: 2026-04-21
+date_ended: 2026-04-23
 date_added: 2026-04-23
 url: https://peterattiamd.com/prostate-cancer-psa/
 pdf_path: 2026-04-23_prostate-cancer-a-psa-on-psa.pdf
