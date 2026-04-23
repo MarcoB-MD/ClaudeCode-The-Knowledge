@@ -72,8 +72,9 @@ Wait for the user's confirmation before proceeding.
    - `other` → `entries/other/`
 
 2b. **PDF handling** (articles and papers only): if the user provided a filename:
+   - All PDFs go in `papers_scientific/` regardless of entry type. Recommended filename: `YYYY-MM-DD_<slug>.pdf` matching the entry slug.
    - Read the PDF with the Read tool at `papers_scientific/<filename>`. For PDFs over 10 pages use the `pages` parameter (max 20 pages per request).
-   - Use the content to populate Key Ideas, Summary, and Notable Quotes — do not ask the user to paste text
+   - Use the content to populate Summary, Key Ideas, Key Words, and Notable Quotes — do not ask the user to paste text
    - Set `pdf_path: <filename>` in the frontmatter
 
 2. Build the filename:

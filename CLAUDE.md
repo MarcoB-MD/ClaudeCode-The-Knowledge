@@ -120,10 +120,12 @@ Format for the body section:
 
 ### PDF Workflow
 
-For `article` and `paper` entries, Marco places PDF files manually in `papers_scientific/` and tells you the filename. When he does:
+For `article` and `paper` entries, Marco places PDF files manually in `papers_scientific/`. All PDFs — whether for articles or papers — go in this folder. The recommended filename is the same slug used for the entry file: `YYYY-MM-DD_slugified-title.pdf` (e.g. `2026-04-23_prostate-cancer-a-psa-on-psa.pdf`). Marco tells you the filename after placing it.
+
+When Marco names a PDF:
 
 1. Read the PDF with the Read tool: `papers_scientific/<filename>`. For PDFs longer than 10 pages use the `pages` parameter (max 20 pages per request).
-2. Use the content to populate Key Ideas, Summary, and Notable Quotes. Never rely on memory or training knowledge alone.
+2. Use the content to populate Summary, Key Ideas, Key Words, and Notable Quotes. Never rely on memory or training knowledge alone.
 3. Set `pdf_path: <filename>` in the frontmatter. The server serves it at `http://localhost:3000/pdfs/<filename>` with an "Open PDF" button on the entry detail page.
 
 ### Adding an Entry
