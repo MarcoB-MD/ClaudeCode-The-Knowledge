@@ -73,4 +73,10 @@ A critical and underappreciated confound: men taking 5-alpha reductase inhibitor
 
 ## Personal Takeaways
 
-_To be added._
+**PSA alone is an insufficient screening tool.** Since PSA values fluctuate day-to-day and differ considerably between individuals, a single measurement provides limited diagnostic signal. What matters is PSA velocity — the rate of change across serial measurements — which captures meaningful trends that a snapshot value cannot.
+
+**PSA density adds a second dimension of risk.** By measuring prostate volume via MRI and relating it to the circulating PSA concentration, PSA density reveals whether PSA is leaking at a rate disproportionate to prostate size — a sign of disrupted tissue architecture or compromised vasculature, both hallmarks of malignancy.
+
+**PSA testing is inexpensive and widely accessible**, making it a low-barrier entry point into screening — but only if interpreted within the right framework (velocity + density) rather than as a standalone value.
+
+**Finasteride can artificially suppress PSA**, masking the true underlying level. Men taking the drug — commonly prescribed for male pattern hair loss — will show measured PSA values roughly half of what they would otherwise be. Without applying the appropriate correction factors, this leads to systematic underestimation of cancer risk.
