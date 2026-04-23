@@ -486,7 +486,7 @@ function renderEntryPage(entry) {
 <body>
   <header class="site-header">
     <div class="site-header-inner">
-      <div class="site-logo">Knowledge <span>Base</span></div>
+      <a class="site-logo" href="/" style="text-decoration:none;color:inherit;">Knowledge <span>Base</span></a>
     </div>
   </header>
   <div class="page">
