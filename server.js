@@ -630,7 +630,7 @@ const server = http.createServer((req, res) => {
 
   const bookPdfM = pathname.match(/^\/book-pdfs\/([^/]+\.pdf)$/i);
   if (bookPdfM) {
-    const fname = path.basename(bookPdfM[1]);
+    const fname = path.basename(decodeURIComponent(bookPdfM[1]));
     const fp = path.join(ROOT, 'books', fname);
     if (fs.existsSync(fp)) {
       res.writeHead(200, { 'Content-Type': 'application/pdf', 'Content-Disposition': `inline; filename="${fname}"` });
