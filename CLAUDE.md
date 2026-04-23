@@ -120,7 +120,9 @@ Format for the body section:
 
 ### PDF Workflow
 
-For `article` and `paper` entries, Marco places PDF files manually in `papers_scientific/`. All PDFs — whether for articles or papers — go in this folder. The recommended filename is the same slug used for the entry file: `YYYY-MM-DD_slugified-title.pdf` (e.g. `2026-04-23_prostate-cancer-a-psa-on-psa.pdf`). Marco tells you the filename after placing it.
+**Articles and papers:** Marco places PDF files manually in `papers_scientific/`. The recommended filename is the same slug used for the entry file: `YYYY-MM-DD_slugified-title.pdf`. The server serves these at `/pdfs/<filename>`.
+
+**Books:** Marco places PDF files manually in `books/`. Same filename convention applies. The server serves these at `/book-pdfs/<filename>`.
 
 When Marco names a PDF:
 
@@ -144,7 +146,7 @@ Do not write entry files directly without following the `/add` procedure — the
 **Date fields (include whichever apply):** `date_published` (when the source came out), `date_started` (when Marco began), `date_ended` (when Marco finished — omit if still in progress)  
 **Optional (omit entirely if not applicable):** `url`, `isbn`, `pdf_path`
 
-**`pdf_path`:** Filename only (e.g., `pr.118.017160.pdf`). File must be stored in `papers_scientific/`. Applicable to `article` and `paper` entries.  
+**`pdf_path`:** Filename only (e.g., `pr.118.017160.pdf`). For `article` and `paper` entries, file must be in `papers_scientific/`. For `book` entries, file must be in `books/`.  
 **`source_type` values:** `book` | `article` | `paper` | `podcast` | `audiobook` | `other`
 
 Never leave a field blank or with an empty string — omit it instead.

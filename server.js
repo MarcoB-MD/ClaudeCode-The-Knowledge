@@ -575,7 +575,7 @@ function renderEntryPage(entry) {
           </div>`).join('')}
         </div>
         ${tags ? `<div class="entry-tags">${tags}</div>` : ''}
-        ${entry.pdf_path ? `<a class="pdf-btn" href="/pdfs/${encodeURIComponent(entry.pdf_path)}" target="_blank" rel="noopener">📄 Open PDF</a>` : ''}
+        ${entry.pdf_path ? `<a class="pdf-btn" href="${entry.type_folder === 'books' ? '/book-pdfs/' : '/pdfs/'}${encodeURIComponent(entry.pdf_path)}" target="_blank" rel="noopener">📄 Open PDF</a>` : ''}
         ${(entry.note_images || []).map(img => `<a class="pdf-btn img-btn" href="/notes/${encodeURIComponent(img)}" target="_blank" rel="noopener">🖼 ${img}</a>`).join('')}
       </aside>
       <div class="entry-body">${html}</div>
@@ -621,6 +621,17 @@ const server = http.createServer((req, res) => {
   if (pdfM) {
     const fname = path.basename(pdfM[1]);
     const fp = path.join(ROOT, 'papers_scientific', fname);
+    if (fs.existsSync(fp)) {
+      res.writeHead(200, { 'Content-Type': 'application/pdf', 'Content-Disposition': `inline; filename="${fname}"` });
+      return res.end(fs.readFileSync(fp));
+    }
+    res.writeHead(404); return res.end('PDF not found');
+  }
+
+  const bookPdfM = pathname.match(/^\/book-pdfs\/([^/]+\.pdf)$/i);
+  if (bookPdfM) {
+    const fname = path.basename(bookPdfM[1]);
+    const fp = path.join(ROOT, 'books', fname);
     if (fs.existsSync(fp)) {
       res.writeHead(200, { 'Content-Type': 'application/pdf', 'Content-Disposition': `inline; filename="${fname}"` });
       return res.end(fs.readFileSync(fp));
