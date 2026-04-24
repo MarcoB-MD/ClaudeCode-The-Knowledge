@@ -67,6 +67,14 @@ Carhart-Harris explains that psychedelics loosen the precision weighting of prio
 
 **Microdosing** — the practice of taking sub-perceptual doses of psychedelics; Carhart-Harris is skeptical of genuine pharmacological benefit, suggesting that observed effects may largely reflect expectation and placebo rather than direct drug action.
 
+**REBUS (Relaxed Beliefs Under Psychedelics)** — Carhart-Harris's theoretical model describing the core mechanism of psychedelics: a reduction in the precision weighting of high-level prior beliefs, allowing bottom-up sensory signals to carry more influence and enabling the revision of entrenched mental models. *"Psychedelics relax the precision weighting of beliefs / priors."*
+
+**Default Mode Network (DMN)** — a brain network associated with self-referential, introspective, and ruminative thought; normally active during rest and mind-wandering; psychedelics disrupt and temporarily dysregulate DMN activity, which is thought to underlie the loosening of rigid self-concept and habitual thought patterns.
+
+**Predictive Processing** — the theoretical framework (associated with Karl Friston's Free Energy Principle) in which the brain constantly generates predictions about incoming sensory data and updates them based on prediction errors; REBUS situates psychedelics within this framework as agents that reduce the brain's confidence in its top-down predictions.
+
+**Set and Setting** — the psychological state (set) and physical/social environment (setting) of the person taking a psychedelic; considered critical determinants of whether the loosening of priors leads to therapeutic benefit or a harmful experience.
+
 ## Personal Takeaways
 
 *2026-04-24*
