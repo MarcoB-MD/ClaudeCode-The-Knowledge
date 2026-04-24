@@ -366,6 +366,8 @@ a { color: inherit; text-decoration: none; }
 .section-divider { flex: 1; height: 1px; background: #e7e5e4; }
 .section-completed .section-title { color: #059669; }
 .section-completed .section-count { background: #f0fdf4; color: #059669; border-color: #bbf7d0; }
+.section-waiting .section-title { color: #0369a1; }
+.section-waiting .section-count { background: #f0f9ff; color: #0369a1; border-color: #7dd3fc; }
 
 /* ── Category hero ── */
 .category-hero {
@@ -422,7 +424,8 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
   const tagOptions  = allTags.map(t => `<option value="${t}"${filterTag  === t ? ' selected' : ''}>${t}</option>`).join('');
   const tag2Options = allTags.map(t => `<option value="${t}"${filterTag2 === t ? ' selected' : ''}>${t}</option>`).join('');
 
-  const inProgress = filtered.filter(e => !e.date_ended);
+  const waiting    = filtered.filter(e => e.status === 'waiting');
+  const inProgress = filtered.filter(e => !e.date_ended && e.status !== 'waiting');
   const completed  = filtered.filter(e =>  e.date_ended);
 
   const makeCard = (e, isCompleted) => {
@@ -445,10 +448,14 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
     </div>`;
   };
 
-  const makeSection = (title, entries, isCompleted) => {
+  const makeSection = (title, entries, mode) => {
     if (!entries.length) return '';
-    return `<div class="section-header${isCompleted ? ' section-completed' : ''}">
-      <span class="section-title">${isCompleted ? '✓ ' : ''}${title}</span>
+    const isCompleted = mode === 'completed';
+    const isWaiting   = mode === 'waiting';
+    const prefix = isCompleted ? '✓ ' : isWaiting ? '◦ ' : '';
+    const cls    = isCompleted ? ' section-completed' : isWaiting ? ' section-waiting' : '';
+    return `<div class="section-header${cls}">
+      <span class="section-title">${prefix}${title}</span>
       <span class="section-count">${entries.length}</span>
       <div class="section-divider"></div>
     </div>
@@ -471,7 +478,7 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
         <h3>No entries found</h3>
         <p>Try a different filter, or add your first entry with <code>/add</code> in Claude Code.</p>
        </div></div>`
-    : makeSection('In Progress', inProgress, false) + makeSection('Completed', completed, true);
+    : makeSection('In Progress', inProgress, 'progress') + makeSection('Waiting List', waiting, 'waiting') + makeSection('Completed', completed, 'completed');
 
   return `<!DOCTYPE html>
 <html lang="en">

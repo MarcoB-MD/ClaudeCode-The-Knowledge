@@ -3,8 +3,8 @@ title: "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action
 author: "Robin Carhart-Harris, Karl Friston"
 source_type: paper
 date_published: 2019-07-01
-date_started: 2026-04-22
 date_added: 2026-04-22
+status: waiting
 pdf_path: pr.118.017160.pdf
 tags:
   - psychedelics
@@ -23,7 +23,6 @@ related:
 **Journal:** Pharmacological Reviews
 **Type:** Paper
 **Published:** 2019-07-01
-**Started:** 2026-04-22
 
 ---
 
