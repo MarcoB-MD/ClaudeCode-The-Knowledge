@@ -2,6 +2,7 @@
 title: "Fooled by Randomness"
 author: "Nassim Nicholas Taleb"
 source_type: audiobook
+platform: audible
 date_published: 2001-01-01
 date_started: 2026-02-01
 date_added: 2026-04-22
