@@ -1,6 +1,6 @@
 # Tag Index
 
-_Last updated: 2026-04-23_
+_Last updated: 2026-04-26_
 
 This index is maintained automatically by Claude. Each tag lists all entries that carry it. Updated every time an entry is added or edited.
 
@@ -27,6 +27,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
 - [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
+- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
 
 ## critical-thinking
 
@@ -60,6 +61,10 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [Prostate Cancer: A PSA on PSA](../entries/articles/2026-04-23_prostate-cancer-a-psa-on-psa.md) — Nicholas Nelson, Taylor Yeater, Ted Schaeffer, Peter Attia (article, 2026-04-23)
 
+## mysticism
+
+- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
+
 ## neuroscience
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
@@ -68,6 +73,14 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## oncology
 
 - [Prostate Cancer: A PSA on PSA](../entries/articles/2026-04-23_prostate-cancer-a-psa-on-psa.md) — Nicholas Nelson, Taylor Yeater, Ted Schaeffer, Peter Attia (article, 2026-04-23)
+
+## perception
+
+- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
+
+## philosophy
+
+- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
 
 ## predictive-processing
 
@@ -89,6 +102,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
 - [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
+- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
 
 ## psychology
 
