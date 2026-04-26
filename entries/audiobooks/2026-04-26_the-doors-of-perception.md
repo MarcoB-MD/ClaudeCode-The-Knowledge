@@ -1,7 +1,8 @@
 ---
 title: "The Doors of Perception"
 author: "Aldous Huxley"
-source_type: book
+source_type: audiobook
+platform: spotify
 date_published: 1954-01-01
 date_started: 2026-04-26
 date_added: 2026-04-26
@@ -17,7 +18,7 @@ related: []
 # The Doors of Perception
 
 **Author:** Aldous Huxley
-**Type:** Book
+**Type:** Audiobook
 **Published:** 1954
 **Started:** 2026-04-26
 

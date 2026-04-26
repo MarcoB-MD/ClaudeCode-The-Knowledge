@@ -27,7 +27,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
 - [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
-- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
+- [The Doors of Perception](../entries/audiobooks/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (audiobook, 2026-04-26)
 
 ## critical-thinking
 
@@ -63,7 +63,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 ## mysticism
 
-- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
+- [The Doors of Perception](../entries/audiobooks/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (audiobook, 2026-04-26)
 
 ## neuroscience
 
@@ -76,11 +76,11 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 ## perception
 
-- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
+- [The Doors of Perception](../entries/audiobooks/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (audiobook, 2026-04-26)
 
 ## philosophy
 
-- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
+- [The Doors of Perception](../entries/audiobooks/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (audiobook, 2026-04-26)
 
 ## predictive-processing
 
@@ -102,7 +102,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
 - [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
-- [The Doors of Perception](../entries/books/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (book, 2026-04-26)
+- [The Doors of Perception](../entries/audiobooks/2026-04-26_the-doors-of-perception.md) — Aldous Huxley (audiobook, 2026-04-26)
 
 ## psychology
 

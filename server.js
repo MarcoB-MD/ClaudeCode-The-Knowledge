@@ -15,6 +15,11 @@ try {
 const PORT = process.env.PORT || 3000;
 const ROOT = __dirname;
 
+const PLATFORM_CONFIG = {
+  spotify: { label: 'Spotify', color: '#15803d', bg: '#dcfce7', border: '#86efac', emoji: '🎵' },
+  audible: { label: 'Audible', color: '#b45309', bg: '#fef3c7', border: '#fcd34d', emoji: '🎧' },
+};
+
 const TYPE_CONFIG = {
   books:      { label: 'Book',      emoji: '📚', color: '#4f46e5' },
   articles:   { label: 'Article',   emoji: '📰', color: '#0891b2' },
@@ -389,6 +394,14 @@ a { color: inherit; text-decoration: none; }
 .category-hero-title { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.02em; color: #1c1917; }
 .category-hero-sub { font-size: 0.82rem; color: #78716c; margin-top: 0.15rem; }
 
+/* ── Platform badge ── */
+.platform-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+}
+
 /* ── Author link ── */
 .author-link { color: #4f46e5; border-bottom: 1px dotted #a5b4fc; transition: border-color 0.15s; }
 .author-link:hover { border-bottom-color: #4f46e5; }
@@ -468,10 +481,15 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
     const lastDate = lastNotesDate(e.body) || e.date_added;
     const displayDate = isCompleted ? e.date_ended : (e.date_started || e.date_added);
     const tags = (e.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+    const plat = e.platform && PLATFORM_CONFIG[e.platform];
+    const platformBadge = plat
+      ? `<span class="platform-badge" style="background:${plat.bg};color:${plat.color};border:1px solid ${plat.border};">${plat.emoji} ${plat.label}</span>`
+      : '';
     return `<div class="card" onclick="location.href='/entry/${e.type_folder}/${e.filename}'">
       <div class="card-top">
         <span class="type-badge">${cfg.emoji} ${cfg.label}</span>
         <div style="display:flex;gap:0.35rem;align-items:center;">
+          ${platformBadge}
           ${e.pdf_path ? '<span class="pdf-badge">PDF</span>' : ''}
           <span class="card-date" style="${isCompleted ? 'color:#059669;' : ''}">${isCompleted ? '✓ ' : ''}${formatDate(displayDate)}</span>
         </div>
@@ -617,9 +635,15 @@ function renderEntryPage(entry) {
     ? `<a href="/author/${authorSlug}" target="_blank" rel="noopener" class="author-link">${entry.author}</a>`
     : (entry.author || null);
 
+  const plat = entry.platform && PLATFORM_CONFIG[entry.platform];
+  const platValue = plat
+    ? `<span class="platform-badge" style="background:${plat.bg};color:${plat.color};border:1px solid ${plat.border};">${plat.emoji} ${plat.label}</span>`
+    : null;
+
   const metaItems = [
     { label: 'Author',     value: authorLink },
     { label: 'Type',       value: `${cfg.emoji} ${cfg.label}` },
+    plat ? { label: 'Platform', value: platValue } : null,
     { label: 'Published',  value: formatDate(entry.date_published) },
     { label: 'Started',    value: formatDate(entry.date_started) },
     { label: 'Finished',   value: formatDate(entry.date_ended) },
