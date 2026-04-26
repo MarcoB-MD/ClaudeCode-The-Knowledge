@@ -47,6 +47,10 @@ function getAllEntries() {
   });
 }
 
+function slugifyAuthor(name) {
+  return (name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 function findEntryHref(nameWithoutExt) {
   for (const type of Object.keys(TYPE_CONFIG)) {
     const fp = path.join(ROOT, 'entries', type, nameWithoutExt + '.md');
@@ -385,6 +389,37 @@ a { color: inherit; text-decoration: none; }
 .category-hero-title { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.02em; color: #1c1917; }
 .category-hero-sub { font-size: 0.82rem; color: #78716c; margin-top: 0.15rem; }
 
+/* ── Author link ── */
+.author-link { color: #4f46e5; border-bottom: 1px dotted #a5b4fc; transition: border-color 0.15s; }
+.author-link:hover { border-bottom-color: #4f46e5; }
+
+/* ── Author page ── */
+.author-page { max-width: 780px; margin: 0 auto; }
+.author-hero {
+  background: #fff;
+  border-radius: 14px;
+  border: 1.5px solid #e7e5e4;
+  padding: 2rem 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.author-name { font-size: 1.9rem; font-weight: 800; letter-spacing: -0.03em; color: #1c1917; margin-bottom: 0.3rem; }
+.author-dates { font-size: 0.92rem; color: #78716c; margin-top: 0.2rem; }
+.author-nationality { font-size: 0.85rem; color: #a8a29e; margin-top: 0.15rem; }
+.close-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: #78716c;
+  margin-bottom: 1.5rem;
+  padding: 0.3rem 0;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: color 0.15s;
+}
+.close-btn:hover { color: #4f46e5; }
+
 /* ── Responsive ── */
 @media (max-width: 780px) {
   .entry-detail { flex-direction: column; }
@@ -533,6 +568,38 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
 </html>`;
 }
 
+function renderAuthorPage(author) {
+  const html = marked(author.body || '');
+  const lifeDates = [author.born, author.died].filter(Boolean).join('–');
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${author.name || 'Author'} — Knowledge Base</title>
+  <style>${CSS}</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-logo" href="/" style="text-decoration:none;color:inherit;">Knowledge <span>Base</span></a>
+    </div>
+  </header>
+  <div class="page">
+    <button class="close-btn" onclick="window.close()">✕ Close</button>
+    <div class="author-page">
+      <div class="author-hero">
+        <div class="author-name">${author.name || 'Unknown Author'}</div>
+        ${lifeDates ? `<div class="author-dates">${lifeDates}</div>` : ''}
+        ${author.nationality ? `<div class="author-nationality">${author.nationality}</div>` : ''}
+      </div>
+      <div class="entry-body">${html}</div>
+    </div>
+  </div>
+</body>
+</html>`;
+}
+
 function renderEntryPage(entry) {
   const cfg = entry.config || TYPE_CONFIG.other;
 
@@ -544,8 +611,14 @@ function renderEntryPage(entry) {
     `<a href="/?tag=${encodeURIComponent(t)}" class="tag">${t}</a>`
   ).join('');
 
+  const authorSlug = entry.author ? slugifyAuthor(entry.author) : null;
+  const hasAuthorPage = authorSlug && fs.existsSync(path.join(ROOT, 'authors', authorSlug + '.md'));
+  const authorLink = entry.author && hasAuthorPage
+    ? `<a href="/author/${authorSlug}" target="_blank" rel="noopener" class="author-link">${entry.author}</a>`
+    : (entry.author || null);
+
   const metaItems = [
-    { label: 'Author',     value: entry.author },
+    { label: 'Author',     value: authorLink },
     { label: 'Type',       value: `${cfg.emoji} ${cfg.label}` },
     { label: 'Published',  value: formatDate(entry.date_published) },
     { label: 'Started',    value: formatDate(entry.date_started) },
@@ -574,7 +647,7 @@ function renderEntryPage(entry) {
       <aside class="entry-hero">
         <div class="entry-type-row"><span class="type-badge">${cfg.emoji} ${cfg.label}</span></div>
         <h1 class="entry-title">${entry.title || 'Untitled'}</h1>
-        ${entry.author ? `<div class="entry-author">by ${entry.author}</div>` : ''}
+        ${entry.author ? `<div class="entry-author">by ${authorLink}</div>` : ''}
         <div class="meta-grid">
           ${metaItems.map(m => `<div class="meta-item">
             <span class="meta-label">${m.label}</span>
@@ -622,6 +695,18 @@ const server = http.createServer((req, res) => {
       return res.end(renderEntryPage(entry));
     }
     res.writeHead(404); return res.end('Entry not found');
+  }
+
+  const authorM = pathname.match(/^\/author\/([a-z0-9-]+)$/);
+  if (authorM) {
+    const slug = authorM[1];
+    const fp = path.join(ROOT, 'authors', slug + '.md');
+    if (fs.existsSync(fp)) {
+      const { data, content: body } = matter(fs.readFileSync(fp, 'utf-8'));
+      res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+      return res.end(renderAuthorPage({ ...data, body, slug }));
+    }
+    res.writeHead(404); return res.end('Author not found');
   }
 
   const pdfM = pathname.match(/^\/pdfs\/([^/]+\.pdf)$/i);
