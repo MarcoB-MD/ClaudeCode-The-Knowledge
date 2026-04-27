@@ -735,11 +735,14 @@ const server = http.createServer((req, res) => {
 
   const pdfM = pathname.match(/^\/pdfs\/([^/]+\.pdf)$/i);
   if (pdfM) {
-    const fname = path.basename(pdfM[1]);
-    const fp = path.join(ROOT, 'papers_scientific', fname);
-    if (fs.existsSync(fp)) {
-      res.writeHead(200, { 'Content-Type': 'application/pdf', 'Content-Disposition': `inline; filename="${fname}"` });
-      return res.end(fs.readFileSync(fp));
+    const fname = path.basename(decodeURIComponent(pdfM[1]));
+    const searchDirs = ['papers_scientific', 'articles'];
+    for (const dir of searchDirs) {
+      const fp = path.join(ROOT, dir, fname);
+      if (fs.existsSync(fp)) {
+        res.writeHead(200, { 'Content-Type': 'application/pdf', 'Content-Disposition': `inline; filename="${fname}"` });
+        return res.end(fs.readFileSync(fp));
+      }
     }
     res.writeHead(404); return res.end('PDF not found');
   }
