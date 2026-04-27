@@ -6,7 +6,7 @@ date_published: 2026-04-21
 date_started: 2026-04-22
 date_ended: 2026-04-24
 date_added: 2026-04-22
-platform: waking-up
+show: "Waking Up"
 tags:
   - neuroscience
   - brain

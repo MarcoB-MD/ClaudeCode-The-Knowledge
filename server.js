@@ -16,11 +16,8 @@ const PORT = process.env.PORT || 3000;
 const ROOT = __dirname;
 
 const PLATFORM_CONFIG = {
-  spotify:    { label: 'Spotify',    color: '#15803d', bg: '#dcfce7', border: '#86efac', emoji: '🎵' },
-  audible:    { label: 'Audible',    color: '#b45309', bg: '#fef3c7', border: '#fcd34d', emoji: '🎧' },
-  'waking-up': { label: 'Waking Up', color: '#6d28d9', bg: '#ede9fe', border: '#c4b5fd', emoji: '🧘' },
-  'apple-podcasts': { label: 'Apple Podcasts', color: '#be185d', bg: '#fce7f3', border: '#fbcfe8', emoji: '🎙️' },
-  'youtube':  { label: 'YouTube',   color: '#b91c1c', bg: '#fee2e2', border: '#fca5a5', emoji: '▶️' },
+  spotify: { label: 'Spotify', color: '#15803d', bg: '#dcfce7', border: '#86efac', emoji: '🎵' },
+  audible:  { label: 'Audible',  color: '#b45309', bg: '#fef3c7', border: '#fcd34d', emoji: '🎧' },
 };
 
 const TYPE_CONFIG = {
@@ -405,6 +402,17 @@ a { color: inherit; text-decoration: none; }
   border-radius: 4px;
 }
 
+/* ── Show badge ── */
+.show-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: #ede9fe;
+  color: #6d28d9;
+  border: 1px solid #c4b5fd;
+}
+
 /* ── Author link ── */
 .author-link { color: #4f46e5; border-bottom: 1px dotted #a5b4fc; transition: border-color 0.15s; }
 .author-link:hover { border-bottom-color: #4f46e5; }
@@ -488,11 +496,14 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
     const platformBadge = plat
       ? `<span class="platform-badge" style="background:${plat.bg};color:${plat.color};border:1px solid ${plat.border};">${plat.emoji} ${plat.label}</span>`
       : '';
+    const showBadge = e.show
+      ? `<span class="show-badge">🎙️ ${e.show}</span>`
+      : '';
     return `<div class="card" onclick="location.href='/entry/${e.type_folder}/${e.filename}'">
       <div class="card-top">
         <span class="type-badge">${cfg.emoji} ${cfg.label}</span>
         <div style="display:flex;gap:0.35rem;align-items:center;">
-          ${platformBadge}
+          ${platformBadge}${showBadge}
           ${e.pdf_path ? '<span class="pdf-badge">PDF</span>' : ''}
           <span class="card-date" style="${isCompleted ? 'color:#059669;' : ''}">${isCompleted ? '✓ ' : ''}${formatDate(displayDate)}</span>
         </div>
@@ -647,6 +658,7 @@ function renderEntryPage(entry) {
     { label: 'Author',     value: authorLink },
     { label: 'Type',       value: `${cfg.emoji} ${cfg.label}` },
     plat ? { label: 'Platform', value: platValue } : null,
+    entry.show ? { label: 'Show', value: `<span class="show-badge">🎙️ ${entry.show}</span>` } : null,
     { label: 'Published',  value: formatDate(entry.date_published) },
     { label: 'Started',    value: formatDate(entry.date_started) },
     { label: 'Finished',   value: formatDate(entry.date_ended) },
