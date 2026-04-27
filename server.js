@@ -16,8 +16,11 @@ const PORT = process.env.PORT || 3000;
 const ROOT = __dirname;
 
 const PLATFORM_CONFIG = {
-  spotify: { label: 'Spotify', color: '#15803d', bg: '#dcfce7', border: '#86efac', emoji: '🎵' },
-  audible: { label: 'Audible', color: '#b45309', bg: '#fef3c7', border: '#fcd34d', emoji: '🎧' },
+  spotify:    { label: 'Spotify',    color: '#15803d', bg: '#dcfce7', border: '#86efac', emoji: '🎵' },
+  audible:    { label: 'Audible',    color: '#b45309', bg: '#fef3c7', border: '#fcd34d', emoji: '🎧' },
+  'waking-up': { label: 'Waking Up', color: '#6d28d9', bg: '#ede9fe', border: '#c4b5fd', emoji: '🧘' },
+  'apple-podcasts': { label: 'Apple Podcasts', color: '#be185d', bg: '#fce7f3', border: '#fbcfe8', emoji: '🎙️' },
+  'youtube':  { label: 'YouTube',   color: '#b91c1c', bg: '#fee2e2', border: '#fca5a5', emoji: '▶️' },
 };
 
 const TYPE_CONFIG = {

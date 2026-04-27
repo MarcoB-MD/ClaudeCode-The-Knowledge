@@ -4,6 +4,7 @@ author: "Peter Attia, Tom Dayspring, Research Team"
 source_type: article
 date_published: 2026-04-25
 date_started: 2026-04-27
+date_ended: 2026-04-27
 date_added: 2026-04-27
 url: https://peterattiamd.com/there-is-no-safe-gamble-with-high-ldl-cholesterol
 pdf_path: There is no safe gamble with high LDL cholesterol - Peter Attia.pdf
