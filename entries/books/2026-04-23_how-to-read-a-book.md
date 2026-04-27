@@ -76,6 +76,35 @@ Chapter 3 examines elementary reading from three angles: its historical context,
 
 **The democratic ideal.** Functional literacy alone is not enough. "We must become a nation of truly competent readers, recognizing all that the word *competent* implies."
 
+*2026-04-27*
+
+*From Chapter 4: The Second Level of Reading: Inspectional Reading*
+
+Chapter 4 gives inspectional reading its full treatment. Adler opens by restating that it has two distinct sub-levels — systematic skimming and superficial reading — which experienced readers perform simultaneously but which beginners should treat as separate sequential steps.
+
+**Inspectional Reading I — Systematic Skimming (Pre-reading).** The goal is to discover as quickly as possible whether the book deserves a more careful reading, and to learn as much as you can from its surface. Adler gives a six-step procedure:
+
+1. **Look at the title page and preface** — note subtitles, the author's stated angle, and the scope of the work; use this to begin mentally categorising the book.
+2. **Study the table of contents** — use it as a road map before taking a trip; Adler laments that most readers never glance at it, and that modern publishers increasingly produce less informative tables of contents because mysterious chapter titles sell better.
+3. **Check the index** — estimate the range of topics and the kinds of authors cited; if any terms seem crucial, look up at least some of the passages cited under them, as these may contain the crux of the book's argument.
+4. **Read the publisher's blurb** — often written by the author, and not merely puffery; a genuine attempt by the author to summarise the main points. Even a blurb that is pure puff is informative — a book with nothing to say often has a blurb with nothing to say.
+5. **Look at the pivotal chapters** — identify the chapters that seem central to the argument and read their opening and closing paragraphs carefully.
+6. **Turn the pages, dipping in here and there** — read a paragraph or two at a time, never more than several consecutive pages; always read the last two or three pages, since few authors can resist summing up what they believe is new and important about their work at the end.
+
+After completing these six steps — taking no more than a few minutes to at most an hour — you should know whether the book merits further reading and have a solid grasp of its main contention.
+
+**Inspectional Reading II — Superficial Reading.** The rule it introduces is one of the most important in the book: *when tackling a difficult book for the first time, read it straight through without ever stopping to look up or ponder things you do not understand.* Pay attention to what you can grasp, and go right past what you cannot. Understanding half of a very difficult book is immeasurably better than understanding nothing because you got stuck on the first hard passage.
+
+The mistake most readers make is expecting too much from a first pass. Premature use of dictionaries, footnotes, and commentaries breaks forward momentum and prevents grasping the whole. Adler illustrates with Shakespeare: generations of students had their pleasure in the plays ruined by being made to study them scene by scene with glossaries, never once reading a play through. They lost sight of the whole while struggling with the parts. The rule applies equally to expository works — reading *The Wealth of Nations* by insisting on understanding every page before turning it causes a reader to miss Smith's major arguments entirely while lost in the fine points.
+
+**On reading speeds.** Adler supports reading faster, but only as part of a broader skill: reading at *different* speeds and knowing when each is appropriate. The obstacles to comprehending a difficult book are not physiological — they arise because the reader does not know the rules of reading and cannot marshal intellectual resources for the task. No increase in speed solves that problem.
+
+**Fixations and regressions.** Most readers sub-vocalize and make five or six eye fixations per line, and frequently regress — returning the eye to phrases already passed. The eye is blind while moving; the mind is capable of grasping a sentence or paragraph at a glance if the eye supplies it enough information. These habits can be broken with a simple pacer technique: use the thumb and first two fingers swept across and down the page faster than is comfortable, forcing the eyes to keep up.
+
+**The problem of comprehension.** The pacer improves concentration, but concentration alone does not address comprehension properly understood. Real comprehension is far more than answering "What does it say?" — that is merely the elementary ability. Adler illustrates with the Declaration of Independence: the pages of facts Jefferson lists can be skimmed quickly, but the first two paragraphs — words like "inalienable," "liberty," "consent," "just powers" — might require days, weeks, or years to fully comprehend. Speed reading cannot touch this dimension.
+
+**Summary.** There is no single right reading speed; the ideal is to read each book at the speed it deserves. *"Every book should be read no more slowly than it deserves, and no more quickly than you can read it with satisfaction and comprehension."* Always skim even a book you intend to read carefully. And most importantly: do not try to understand every word on a first pass — race through it, and you will be prepared to read it well the second time. The two stages of inspectional reading are themselves anticipations of the first two stages of analytical reading.
+
 ## Key Ideas
 
 *2026-04-23*
@@ -106,6 +135,17 @@ Chapter 3 examines elementary reading from three angles: its historical context,
 - **Remedial college reading is still elementary** — college speed-reading and "effective reading" courses bring students up to the level they should have reached in elementary school; they do not teach analytical or syntopical reading.
 - **Education's unfinished task** — functional literacy is a necessary but insufficient goal; a democratic society needs citizens who are not merely literate but competent readers at the higher levels.
 - **The gap between levels and institutions** — a liberal arts high school should produce analytical readers; a college should produce syntopical readers; neither currently does so systematically.
+
+*2026-04-27*
+
+- **Systematic skimming is structured detective work** — the six-step procedure (title/preface → TOC → index → blurb → pivotal chapters → dipping) is a purposeful hunt for the book's main contention and whether it deserves further reading; it should take no more than an hour.
+- **Always read the last pages** — few authors resist summing up at the end; skipping the conclusion is always a mistake during a skim.
+- **The rule of superficial reading** — on a first pass through a difficult book, never stop to look up what you don't understand; forward momentum and partial comprehension are more valuable than local precision at the cost of the whole.
+- **Premature consultation impedes** — looking up words and consulting footnotes before completing a first reading fragments the whole; these are second-reading activities, not first-reading ones.
+- **Speed is the wrong target** — the obstacle to comprehending a difficult book is not physiological; it arises from not knowing the rules of reading, and no amount of faster reading compensates for that.
+- **Fixations and regressions waste what the mind can handle** — the eye fixes multiple times per line and often backtracks; the mind can grasp far more at once than the eye is being allowed to supply; a hand pacer corrects this efficiently.
+- **Comprehension ≠ concentration** — focus is improved by speed techniques, but real comprehension at higher levels is not addressed by any speed reading course; it requires analytical reading.
+- **Adler's speed formula** — every book should be read no more slowly than it deserves and no more quickly than allows satisfaction and comprehension; speed is a fractional part of most readers' actual problem.
 
 ## Key Words
 
@@ -148,6 +188,18 @@ Chapter 3 examines elementary reading from three angles: its historical context,
 **Functional Literacy** — the level of reading ability typically attained around fourth grade; sufficient for basic everyday tasks (reading signs, filling out simple forms) but well below the competence required for demanding texts or independent intellectual work. *"The ability… to read traffic signs or picture captions fairly easily, to fill out the simpler government forms, and the like."*
 
 **Mature Elementary Reading** — the fourth and final stage of elementary reading, ideally reached in the early teens; the student can read almost anything but still in a relatively unsophisticated manner, and can assimilate ideas across texts — but has not yet learned to read beyond the elementary level. *"He does not yet know how to read beyond the elementary level."*
+
+*2026-04-27*
+
+**Systematic Skimming (Pre-reading)** — the first sub-level of inspectional reading: a six-step structured procedure for extracting maximum information from a book's surface in minimal time, to determine whether it merits a more careful reading and to grasp its main contention. *"Your main aim is to discover whether the book requires a more careful reading."*
+
+**Superficial Reading** — the second sub-level of inspectional reading: deliberately reading a difficult book straight through on a first pass without stopping to understand what is unclear; the goal is to gain enough of a foothold that a second, more careful reading becomes possible. *"In tackling a difficult book for the first time, read it through without ever stopping to look up or ponder the things you do not understand right away."*
+
+**Fixation** — the momentary pause of the eye at a point on a line of text; the eye can only receive information when stopped, not while moving; untrained readers fix five or six times per line when the mind is capable of grasping far more at each stop. *"The eye is blind while it moves; it can only see when it stops."*
+
+**Regression** — the habit of returning the eye to phrases or sentences already passed; common in untrained readers and a significant drain on reading speed without any benefit to comprehension, since the mind, not the eye, is the limiting factor.
+
+**The Problem of Comprehension** — Adler's term for the dimension of reading that speed courses fail to address: comprehension beyond the elementary "What does it say?" level; the capacity to answer the organised questions of analytical reading that imply genuine understanding. *"Comprehension involves much more than merely being able to answer simple questions of fact about a text."*
 
 ## Personal Takeaways
 
