@@ -1,10 +1,14 @@
 # Tag Index
 
-_Last updated: 2026-04-26_
+_Last updated: 2026-04-27_
 
 This index is maintained automatically by Claude. Each tag lists all entries that carry it. Updated every time an entry is added or edited.
 
 ---
+
+## atherosclerosis
+
+- [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
 
 ## behavioral-economics
 
@@ -14,6 +18,10 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [The Psychedelic Brain](../entries/podcasts/2026-04-22_the-psychedelic-brain.md) — Robin Carhart-Harris (podcast, 2026-04-22)
 - [REBUS and the Anarchic Brain](../entries/papers/2026-04-22_rebus-and-the-anarchic-brain.md) — Robin Carhart-Harris, Karl Friston (paper, 2026-04-22)
+
+## cardiovascular-health
+
+- [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
 
 ## cognitive-bias
 
@@ -53,9 +61,21 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [How to Read a Book](../entries/books/2026-04-23_how-to-read-a-book.md) — Mortimer J. Adler & Charles Van Doren (book, 2026-04-23)
 
+## ketogenic-diet
+
+- [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
+
+## ldl-cholesterol
+
+- [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
+
 ## learning
 
 - [How to Read a Book](../entries/books/2026-04-23_how-to-read-a-book.md) — Mortimer J. Adler & Charles Van Doren (book, 2026-04-23)
+
+## lipoproteins
+
+- [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
 
 ## mens-health
 
@@ -89,6 +109,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## preventive-medicine
 
 - [Prostate Cancer: A PSA on PSA](../entries/articles/2026-04-23_prostate-cancer-a-psa-on-psa.md) — Nicholas Nelson, Taylor Yeater, Ted Schaeffer, Peter Attia (article, 2026-04-23)
+- [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
 
 ## probability
 
@@ -124,6 +145,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## risk
 
 - [Fooled by Randomness](../entries/audiobooks/2026-04-22_fooled-by-randomness.md) — Nassim Nicholas Taleb (audiobook, 2026-04-22)
+- [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
 
 ## screening
 
