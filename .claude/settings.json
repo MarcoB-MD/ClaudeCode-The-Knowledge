@@ -17,8 +17,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd /Users/marco/ClaudeCode_The-Knowledge && git add -A && git diff --cached --quiet || (git commit -m \"Auto-save: $(date '+%Y-%m-%d %H:%M')\" && git push)",
-            "timeout": 30,
+            "command": "cd /Users/marco/ClaudeCode_The-Knowledge && git add -A && git diff --cached --quiet || (git commit -m \"Auto-save: $(date '+%Y-%m-%d %H:%M')\" && git push > /tmp/knowledge-git-push.log 2>&1 &)",
+            "timeout": 10,
             "statusMessage": "Saving changes to GitHub..."
           }
         ]
