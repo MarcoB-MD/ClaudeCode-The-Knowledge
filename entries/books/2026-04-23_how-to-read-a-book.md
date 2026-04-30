@@ -128,6 +128,32 @@ Seven specific devices for marking intelligently: (1) **Underlining** — major 
 
 **Forming the Habit of Reading — From Many Rules to One Habit.** Any art or skill belongs to those who have formed the habit of operating according to its rules. Knowing the rules explicitly is a necessary precondition, but it is not the same as having the habit. The goal is to internalize the rules so thoroughly that they become second nature — the activity is then performed automatically while full attention turns to the goal rather than the mechanics. Adler uses skiing as an analogy. Learning to ski means first mastering many separate acts (bend knees, look downhill, keep weight on the downhill ski, lean forward) that cannot all be held in mind simultaneously while skiing. The goal is not to think about each act but to integrate them all into a single fluent performance carried out automatically. The critical principle: *in order to forget the separate acts as separate acts, you must first learn them as separate acts.* The multiplicity of rules indicates the complexity of the one habit to be formed, not a plurality of distinct habits; when each subordinate act reaches automatic execution, the whole coalesces. Reading is far more complex than skiing — and far more mental. The beginning analytical reader must think about his own thinking, which is harder and less practiced than thinking about physical movements. But it can be done, and a person who does it cannot help but learn to read much better.
 
+*2026-04-30*
+
+*From Chapter 6: Pigeonholing a Book*
+
+Chapter 6 opens Part Two by stating why analytical reading will tend to focus on whole books: reading a whole book poses the severest problems any reader can face, and if you can do that, shorter works become correspondingly easier.
+
+**Rule 1 of Analytical Reading — Classify the Book.** The first rule: *you must know what kind of book you are reading, and you should know this as early as possible, preferably before you begin.* The way to discover this is through inspectional reading — title, subtitle, preface, table of contents, index, blurb. These are the signal flags the author waves to tell you which way the wind is blowing. It is not the author's fault if the reader ignores them.
+
+**What You Can Learn from the Title.** Most readers pay no attention to these signals. Adler illustrates with two cases. First, Darwin: more than half of twenty-five reasonably well-read people, when asked, said the title was *The Origin of the Species* (with "the") rather than *The Origin of Species*. The mistake reveals they never actually read the title carefully — Darwin's book is about the proliferation of many species from an originally smaller number through natural selection, not about the human species in particular (that is *The Descent of Man*). Second, Gibbon's *The Decline and Fall of the Roman Empire*: when asked why the first chapter is titled "The Extent and Military Force of the Empire in the Age of the Antonines," people had no idea. They had unconsciously translated "decline and fall" into "rise and fall" and were puzzled that the narrative started at the Empire's high point rather than at the Republic. Reading the title carefully would have supplied essential information before a single page of text was read.
+
+Classifying a book from its surface signals requires having the broad categories already in mind. Knowing that Euclid's *Elements* and William James' *Principles of Psychology* are both sciences, or that Aristotle's *Politics* and Adam Smith's *Wealth of Nations* both deal with practical problems, is what allows you to group and distinguish them. The title and front matter give the clues; the reader must supply the conceptual framework to read those clues.
+
+**Practical vs. Theoretical Books.** The most important distinction Adler draws within expository works is between **practical** and **theoretical** books. Theoretical books teach you *that* something is the case — they convey knowledge for its own sake. Practical books teach you *how* to do something — they convey knowledge with a view to its application, converting it into rules of action. The distinction is between knowing *that* and knowing *how*; between knowledge and action as the two ends a writer may have in mind. This book is itself practical, not theoretical. Any guidebook, manual, moral treatise, or work on ethics, politics, law, or economics that tells you what you should do or how to do it is practical — even if you disagree with its conclusions. Disagreement does not make a book unpractical; it makes it wrong. Sociological studies that merely report behavior without judging it are theoretical (scientific) rather than practical.
+
+The linguistic test: practical books are saturated with "should," "ought," "good," "bad," "ends," and "means" — they say things *should be* done. Theoretical books say "is" — they show what is true. The boundary is not always crisp (Spinoza's *Ethics* is partly both), but detecting the predominant approach is a clear reading advantage. A practical book also tends to contain an element of persuasion — it not only tells you what to do but tries to get you to do it.
+
+**Kinds of Theoretical Books.** Among theoretical books, the traditional subdivision is history, science, and philosophy.
+
+**History** is *chronotopic* — from *chronos* (time) and *topos* (place). It deals with particular events that occurred at specific times and places; its essence is narration. History is knowledge of particular things that existed and underwent change in the course of time. The historian narrates and often colors his narrative with commentary on the significance of events. The word "history" usually appears in the title; even when it does not, the front matter signals the chronotopic subject clearly.
+
+**Science** is not concerned with the past as such — it treats matters that can happen at any time or place. The scientist seeks laws and generalizations, not accounts of particular events. Titles of scientific works are less revealing than those of history books, often naming a subject (psychology, geology, physics) without distinguishing whether the approach is scientific or philosophical. The key test: a scientific book requires the reader to go beyond normal everyday experience — laboratory experiments, controlled observations, or field research. The facts it reports are not checkable by the ordinary experience of the average person.
+
+**Philosophy** seeks general truths like science, but unlike science it does not require special or experimental experience for verification. A philosophical book appeals to experience common to all ordinary human beings — it is "armchair" in the best sense. The philosopher proves his points by pointing to what everyone already knows from everyday life; the scientist proves his by pointing to special observations not accessible to the lay observer. Locke's *Essay Concerning Human Understanding* is philosophical in psychology; Freud's writings are scientific — Freud requires clinical conditions; Locke requires only what any person can observe in his own mental processes. William James occupies a middle ground, mixing both methods.
+
+**Why Classification Matters.** The chapter closes by insisting that classification is not academic tidying. Different kinds of books convey different kinds of knowledge, argue in different ways, and make different demands on the reader. Just as a teacher's field reveals itself quickly in how they speak, what they argue, and what responses they expect, a book's kind reveals itself in its method — and knowing this is a prerequisite to reading it well. The activity of the reader must be responsive to the activity of the author. As books differ in the kinds of knowledge they communicate, they instruct us differently; and if we are to follow them, we must learn to read each kind in an appropriately different manner.
+
 ## Key Ideas
 
 *2026-04-23*
@@ -182,6 +208,18 @@ Seven specific devices for marking intelligently: (1) **Underlining** — major 
 - **Rules must be learned separately before they can be unified** — you cannot coalesce separate acts into a fluent habit without first mastering each act individually; the multiplicity of rules signals the complexity of one habit to be formed, not many.
 - **Reading is more complex than skiing** — both require internalizing many separate acts into one fluent performance, but analytical reading also requires thinking about your own thoughts, which is harder and less practiced than thinking about physical movement.
 - **The tired reader is not unwilling but unskilled** — people fall asleep over good books not because they refuse to make the effort but because they do not know how; the frustration of stretching unsuccessfully is more tiring than the stretching itself.
+
+*2026-04-30*
+
+- **Rule 1 is the foundation of all analytical reading** — you cannot read a book well if you do not know what kind of book it is; classification must precede interpretation.
+- **Titles are read but not thought about** — most readers recognize a title without actually parsing what it says; thinking about the title is one of the most efficient and most neglected acts of reading.
+- **The reader must bring the categories, the book supplies the clues** — front matter signals the book's kind, but only a reader who already has a classification framework in mind can decode those signals.
+- **Practical books aim at action, theoretical books aim at knowledge** — the distinction is not about difficulty or usefulness; it is about the end the author has in mind: knowing *that* vs. knowing *how*.
+- **"Should" vs. "is" is the linguistic test** — practical books say things should be done; theoretical books say things are the case; the predominant verb reveals the book's orientation.
+- **Disagreement does not make a practical book impractical** — an ethical work you disagree with is still practical; a wrong guidebook is still a guidebook.
+- **History is always about particulars; science is always about universals** — the historian narrates specific events at specific times and places; the scientist seeks laws that hold across times and places.
+- **The science/philosophy boundary is experience-type** — the test is not subject matter but method: does the book require special experience (experiments, clinical observation) to verify its claims? If so, it is scientific; if it appeals only to common everyday experience, it is philosophical.
+- **Classification shapes how you read** — different kinds of books argue differently and demand different kinds of attention; knowing the kind before you start adjusts your reading posture from the first page.
 
 ## Key Words
 
@@ -252,6 +290,24 @@ Seven specific devices for marking intelligently: (1) **Underlining** — major 
 **Dialectical Note-making** — the kind of notes appropriate to syntopical reading: concerns not any single book but the shape of the discussion across several books — the conversation all the authors are engaged in, whether or not they know it; often made on separate sheets of paper. *"We prefer to call such notes dialectical."*
 
 **Habit (as distinct from Rule-knowledge)** — the internalized state in which a skill's constituent rules have been so thoroughly practiced that they operate automatically, freeing conscious attention for the goal rather than the mechanics; the art as something learned and possessed, as opposed to rules that are known but not yet second nature. *"The art as something learned and possessed consists of the habit that results from operating according to the rules."*
+
+*2026-04-30*
+
+**Rule 1 of Analytical Reading** — the first rule: know what kind of book you are reading, and know it as early as possible, preferably before you begin; classification precedes all further analytical reading. *"You must know what kind of book you are reading, and you should know this as early in the process as possible, preferably before you begin to read."*
+
+**Expository Book** — any book that conveys knowledge; "knowledge" construed broadly to include opinions, theories, hypotheses, or speculations for which the claim is made that they are true in some sense; contrasted with fiction, which does not primarily aim to convey knowledge. *"An expository book is one that conveys knowledge primarily."*
+
+**Practical Book** — a book that teaches you *how* to do something you want to do or think you should do; aimed at action and application; converts knowledge into rules of operation; includes manuals, arts, guidebooks, and all normative works on ethics, politics, law, economics. *"Any book that tells you either what you should do or how to do it is practical."*
+
+**Theoretical Book** — a book that teaches you *that* something is the case; aimed at knowledge for its own sake rather than action; seeks to show what is true, not what should be done. *"Theoretical books teach you that something is the case."*
+
+**Normative Book** — Adler's term for a special subclass of practical books concerned with what one should do in the domains of ethics, politics, and economics; teaches how to live or how to organize collective life; practical whether or not one agrees with its conclusions. *"All treatises that are conveniently classified as moral… constitute a very special category of practical books."*
+
+**Chronotopic** — Adler's term for history as a genre: always concerned with particular events that occurred at a specific time (*chronos*) and place (*topos*); contrasted with science, which seeks generalizations valid across all times and places. *"History is chronotopic."*
+
+**Science (as a book type)** — a theoretical book that seeks laws and generalizations about matters that can occur at any time or place; requires the reader to go beyond normal everyday experience — through laboratory experiment, clinical observation, or field research — to verify its claims. *"The scientist seeks laws or generalizations… not… how some particular things happened at a given time and place in the past."*
+
+**Philosophy (as a book type)** — a theoretical book that seeks general truths but, unlike science, verifies them by appealing solely to experience common to all ordinary human beings; requires no special or experimental observation; often called "armchair" thinking, without invidious intent. *"A philosophical book appeals to no facts or observations that lie outside the experience of the ordinary man."*
 
 ## Personal Takeaways
 
