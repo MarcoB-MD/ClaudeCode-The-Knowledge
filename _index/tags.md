@@ -1,10 +1,14 @@
 # Tag Index
 
-_Last updated: 2026-04-27_
+_Last updated: 2026-05-03_
 
 This index is maintained automatically by Claude. Each tag lists all entries that carry it. Updated every time an entry is added or edited.
 
 ---
+
+## aging
+
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
 
 ## atherosclerosis
 
@@ -22,6 +26,10 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## cardiovascular-health
 
 - [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
+
+## clinical-trials
+
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
 
 ## cognitive-bias
 
@@ -53,6 +61,10 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [How to Read a Book](../entries/books/2026-04-23_how-to-read-a-book.md) — Mortimer J. Adler & Charles Van Doren (book, 2026-04-23)
 
+## exercise
+
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
+
 ## finance
 
 - [Fooled by Randomness](../entries/audiobooks/2026-04-22_fooled-by-randomness.md) — Nassim Nicholas Taleb (audiobook, 2026-04-22)
@@ -77,9 +89,21 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
 
+## longevity
+
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
+
 ## mens-health
 
 - [Prostate Cancer: A PSA on PSA](../entries/articles/2026-04-23_prostate-cancer-a-psa-on-psa.md) — Nicholas Nelson, Taylor Yeater, Ted Schaeffer, Peter Attia (article, 2026-04-23)
+
+## mtor
+
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
+
+## muscle
+
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
 
 ## mysticism
 
@@ -110,6 +134,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [Prostate Cancer: A PSA on PSA](../entries/articles/2026-04-23_prostate-cancer-a-psa-on-psa.md) — Nicholas Nelson, Taylor Yeater, Ted Schaeffer, Peter Attia (article, 2026-04-23)
 - [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
 
 ## probability
 
@@ -132,6 +157,10 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## randomness
 
 - [Fooled by Randomness](../entries/audiobooks/2026-04-22_fooled-by-randomness.md) — Nassim Nicholas Taleb (audiobook, 2026-04-22)
+
+## rapamycin
+
+- [Disappointing results from the first rapamycin-plus-exercise trial](../entries/articles/2026-05-03_disappointing-results-rapamycin-exercise-trial.md) — Taylor Yeater, Michael Rae, Peter Attia (article, 2026-05-03)
 
 ## reading
 
