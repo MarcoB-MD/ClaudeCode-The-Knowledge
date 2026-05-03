@@ -154,6 +154,22 @@ The linguistic test: practical books are saturated with "should," "ought," "good
 
 **Why Classification Matters.** The chapter closes by insisting that classification is not academic tidying. Different kinds of books convey different kinds of knowledge, argue in different ways, and make different demands on the reader. Just as a teacher's field reveals itself quickly in how they speak, what they argue, and what responses they expect, a book's kind reveals itself in its method — and knowing this is a prerequisite to reading it well. The activity of the reader must be responsive to the activity of the author. As books differ in the kinds of knowledge they communicate, they instruct us differently; and if we are to follow them, we must learn to read each kind in an appropriately different manner.
 
+*2026-05-02*
+
+*From Chapter 7: X-Raying a Book*
+
+Chapter 7 presents Rules 2, 3, and 4 of analytical reading, completing the First Stage — answering "What is the book about as a whole?" The chapter's central metaphor is the X-ray: just as an X-ray reveals a body's skeleton, analytical reading reveals the skeleton of argument, order, and design that the author has deliberately concealed beneath the readable surface of prose.
+
+**Rule 2 — State the Unity.** Reduce the book to a single sentence, or at most a short paragraph. The unity of a book is its single overriding theme or design, and finding it requires real work — the reader cannot simply paraphrase the title. Adler illustrates with six classical works: the Odyssey (a man's long journey home after the fall of Troy); Tom Jones (a man of good character, stripped of patrimony and love, recovers both); Aristotle's Ethics (what constitutes human happiness and how to achieve it); Smith's Wealth of Nations (the sources of national wealth and the behaviors that generate it); Darwin's Origin of Species (how species proliferate through natural selection); and Locke's Essay (the origin, certainty, and extent of human knowledge).
+
+**Rule 3 — Set Forth the Parts.** After stating the unity, enumerate the book's major parts in their order and relation — then outline each part the same way you outlined the whole. The result is the reader's skeleton of the work. Crucially, the reader's outline need not follow the author's chapter divisions; chapter divisions are concessions to readability, not logical structure. The chapter illustrates with the U.S. Constitution (8 major divisions, then Article I subdivided into 8 parts) and a first approximation of Aristotle's Ethics (6 major parts). The recipe: state the whole → enumerate major parts → enumerate sub-parts of each major part, recursively, as deep as the book requires.
+
+**The Reciprocal Arts.** Writing and reading are mirror images of each other. The author begins with a unity and develops its parts in order, then dresses the skeleton with flesh and readable prose. The reader begins with that surface and works backward to recover the skeleton. A well-written book has unity, clarity, and coherence — Rules 2 and 3 are the reader's instruments for finding and verifying those structural virtues.
+
+**Rule 4 — Find the Author's Problems.** Every book begins with a question or set of questions that the author is trying to solve. The reader's task is to formulate those questions as precisely as possible and identify which are primary and which are subordinate. The chapter warns against the intentional fallacy: do not try to read the author's private mind; formulate only the questions implied by the finished work. Two fundamental kinds: *theoretical questions* (Does X exist? What kind? What caused it? What are its effects and relations?) and *practical questions* (What ends should be sought? What means best achieve them? What is the right thing to do?).
+
+**First Stage Complete.** Rules 1–4 together constitute the First Stage of Analytical Reading, all aimed at answering one master question: "What is the book about as a whole?" The chapter closes with the four rules enumerated as a numbered list — a unit to be memorized and applied before moving to the Second Stage.
+
 ## Key Ideas
 
 *2026-04-23*
@@ -220,6 +236,17 @@ The linguistic test: practical books are saturated with "should," "ought," "good
 - **History is always about particulars; science is always about universals** — the historian narrates specific events at specific times and places; the scientist seeks laws that hold across times and places.
 - **The science/philosophy boundary is experience-type** — the test is not subject matter but method: does the book require special experience (experiments, clinical observation) to verify its claims? If so, it is scientific; if it appeals only to common everyday experience, it is philosophical.
 - **Classification shapes how you read** — different kinds of books argue differently and demand different kinds of attention; knowing the kind before you start adjusts your reading posture from the first page.
+
+*2026-05-02*
+
+- **The skeleton is always concealed** — a good author buries their logical structure under readable prose; the reader's job is to uncover it, just as an X-ray reveals bone beneath flesh.
+- **Unity is a sentence, not a summary** — Rule 2 asks for one sentence capturing the whole; longer statements trade precision for comprehensiveness, which is the wrong exchange.
+- **The reader's outline need not follow the author's chapters** — chapter divisions are concessions to readability; the logical structure of a book and its chapter structure often diverge; the reader must discover the former independently.
+- **Reading and writing are reciprocal arts** — the author proceeds from whole to parts to surface; the reader proceeds from surface to parts to whole; understanding is achieved when the reader's reconstruction matches the author's original design.
+- **Good books have discoverable skeletons** — unity, clarity, and coherence are objective structural virtues; Rules 2 and 3 give the reader a way to test whether the author achieved them.
+- **Problems precede books** — every book is an answer to a question; formulating the author's questions is the last step of the First Stage and often the hardest, because it forces the reader to think as the author was thinking.
+- **Theoretical vs. practical questions have different structures** — theoretical questions ask what is the case (existence, kind, cause, effect); practical questions ask what should be done (ends, means, right action); knowing the difference shapes how the reader evaluates the author's success.
+- **Rules 1–4 form a complete unit** — the First Stage of Analytical Reading is closed and self-contained; completing all four rules answers "What is the book about as a whole?" before moving to the deeper questions of the Second Stage.
 
 ## Key Words
 
@@ -308,6 +335,24 @@ The linguistic test: practical books are saturated with "should," "ought," "good
 **Science (as a book type)** — a theoretical book that seeks laws and generalizations about matters that can occur at any time or place; requires the reader to go beyond normal everyday experience — through laboratory experiment, clinical observation, or field research — to verify its claims. *"The scientist seeks laws or generalizations… not… how some particular things happened at a given time and place in the past."*
 
 **Philosophy (as a book type)** — a theoretical book that seeks general truths but, unlike science, verifies them by appealing solely to experience common to all ordinary human beings; requires no special or experimental observation; often called "armchair" thinking, without invidious intent. *"A philosophical book appeals to no facts or observations that lie outside the experience of the ordinary man."*
+
+*2026-05-02*
+
+**Rule 2 of Analytical Reading** — the rule requiring the reader to state the unity of the whole book in a single sentence or short paragraph; the unity is the single overriding theme or design of the work, and finding it requires real intellectual work, not merely paraphrasing the title. *"If the book has a unity, you should be able to state it in a sentence."*
+
+**Rule 3 of Analytical Reading** — the rule requiring the reader to enumerate the major parts of the book in their order and relation, then outline each part as the whole was outlined; together with Rule 2, it produces the reader's reconstruction of the book's skeleton. *"A book is like a single house. It is a mansion of many rooms, rooms on different floors, of different sizes and shapes, with different outlooks, rooms with different functions to perform."*
+
+**Rule 4 of Analytical Reading** — the rule requiring the reader to find and formulate the author's questions — the problems the book was written to solve — as precisely as possible, distinguishing primary from subordinate questions. *"You must try to formulate the questions that the book tries to answer."*
+
+**The Reciprocal Arts** — Adler's characterization of the relationship between writing and reading: they are mirror images; the author proceeds from unity to parts to surface prose, the reader proceeds from surface to parts to unity; genuine understanding means the reader's reconstruction matches the author's original design. *"Writing and reading are…two sides of the same coin."*
+
+**The Intentional Fallacy** — the error of trying to discover the author's private intentions or mental states rather than reading the questions implied by the finished work; Rule 4 asks for the problems the text poses, not for access to the author's mind. *"By 'problems' we do not mean…what the author had in his mind as he was writing."*
+
+**Theoretical Questions** — questions whose answers show that something is the case; subcategories: existence (does X exist?), classification (what kind of thing is it?), causal (what caused it? what are its effects?), and relational (what are its characteristics and relations?). *"Theoretical questions are answered by showing that something is the case."*
+
+**Practical Questions** — questions whose answers are always about what should be done; subcategories: ends (what should be sought?), means (what actions best achieve those ends?), and rightness (is this the right thing to do?). *"Practical questions are answered by showing what should be done."*
+
+**First Stage of Analytical Reading** — the collective name for Rules 1–4; the stage that answers the master question "What is the book about as a whole?" by classifying the book, stating its unity, outlining its parts, and finding the author's problems; it is completed before any judgment or interpretation can begin. *"We have now completed our discussion of the first stage of analytical reading."*
 
 ## Personal Takeaways
 
