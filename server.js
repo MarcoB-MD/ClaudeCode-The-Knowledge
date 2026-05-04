@@ -487,9 +487,10 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
   const inProgress = filtered
     .filter(e => !e.date_ended && e.status !== 'waiting')
     .sort((a, b) => {
-      const da = String(lastNotesDate(a.body) || a.date_added || '');
-      const db = String(lastNotesDate(b.body) || b.date_added || '');
-      return da.localeCompare(db);
+      const toISO = v => !v ? '' : v instanceof Date ? v.toISOString().slice(0,10) : String(v);
+      const da = lastNotesDate(a.body) || toISO(a.date_added);
+      const db = lastNotesDate(b.body) || toISO(b.date_added);
+      return db.localeCompare(da);
     });
   const completed  = filtered.filter(e =>  e.date_ended);
 
