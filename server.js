@@ -484,7 +484,13 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
   const tag2Options = allTags.map(t => `<option value="${t}"${filterTag2 === t ? ' selected' : ''}>${t}</option>`).join('');
 
   const waiting    = filtered.filter(e => e.status === 'waiting');
-  const inProgress = filtered.filter(e => !e.date_ended && e.status !== 'waiting');
+  const inProgress = filtered
+    .filter(e => !e.date_ended && e.status !== 'waiting')
+    .sort((a, b) => {
+      const da = lastNotesDate(a.body) || a.date_added || '';
+      const db = lastNotesDate(b.body) || b.date_added || '';
+      return db.localeCompare(da);
+    });
   const completed  = filtered.filter(e =>  e.date_ended);
 
   const makeCard = (e, isCompleted) => {
