@@ -170,6 +170,37 @@ Chapter 7 presents Rules 2, 3, and 4 of analytical reading, completing the First
 
 **First Stage Complete.** Rules 1–4 together constitute the First Stage of Analytical Reading, all aimed at answering one master question: "What is the book about as a whole?" The chapter closes with the four rules enumerated as a numbered list — a unit to be memorized and applied before moving to the Second Stage.
 
+*2026-05-04*
+
+*From Chapter 8: Coming to Terms with an Author*
+
+Chapter 8 opens the Second Stage of Analytical Reading — not outlining the book's structure, but interpreting its contents and message. It introduces Rule 5, the first rule of this new stage.
+
+**Words vs. Terms.** The chapter begins by establishing its most fundamental distinction. Words are physical symbols — marks on a page, sounds spoken — and virtually every word in any language carries multiple meanings. A term is not a special word; it is a word *used unambiguously* within a given communicative act. Terms cannot be found in dictionaries; they arise only in successful communication, when writer and reader manage to use the same word with the same meaning at the same time. Ambiguity that is not resolved is not just imprecision — it is the absence of communication. "Coming to terms" is the ideal that both writer and reader must strive toward; neither can achieve it alone.
+
+Language is inherently imperfect as a medium for conveying knowledge — it is simultaneously the only available medium and an obstacle to the communication it enables. Every rule of interpretive reading exists to help both parties overcome this obstacle. The writer must tunnel through from his side as skillfully as possible; the reader must tunnel from the other side; they meet only if both use the same principles. One word can be the vehicle for many terms, and one term can be expressed by many words — this many-to-many relationship is what makes interpretive reading necessary and possible.
+
+**Rule 5 of Analytical Reading** — Find the important words and through them come to terms with the author. The rule has two indispensable parts: (1) locate the important words — the grammatical step; (2) determine their meanings as the author uses them — the logical step. Every rule of interpretive reading has this two-step structure. If language were a perfect transparent medium, the second step would be unnecessary; since it is not, both steps are required.
+
+**Finding the Key Words.** Not all words an author uses are important — most words in any book can be read just as one would use them in daily conversation. Important words are those used in a special way. There are two ways to locate them:
+
+- *Negatively (the reader's approach)*: The words that trouble you are the important ones. Ordinary words in ordinary use do not cause trouble; if a word confuses you, it is probably being used in a non-ordinary way. "The most important words are those that give you trouble." Mark them deliberately rather than sliding past.
+- *Positively (the author's signals)*: Authors flag technical words with italics, quotation marks, explicit definitions, or by discussing the various senses of the word and explaining which sense they intend. A further clue: when an author quarrels with other writers about how a word should be used, that word is critical to him.
+
+Every field of knowledge has its own technical vocabulary — the words that name the entities and operations of that field. In some works (Euclid's *Elements*) these are announced from the start via explicit definitions. In others — philosophy especially — authors take ordinary words and make them technical, often without explicit announcement, which is the most misleading case. Prior knowledge of a field, or structural knowledge from the First Stage, helps distinguish technical from ordinary words.
+
+**Finding the Meanings.** Once the key words are located, the task is to determine their meanings from context. The method: use the meanings of all the *other* words in the passage — the ones already understood — to triangulate the meaning of the unknown word. This is not circular; it is like assembling a jigsaw puzzle. Words already placed as terms make placing the next word easier; each word correctly placed narrows the possibilities for the rest. Errors correct themselves as the picture develops, because a misplaced word prevents the picture from completing. There is no rule of thumb; there is only patient, recursive effort.
+
+**Two Complications:**
+
+1. *One term, many words (synonyms)*: Good authors avoid boring repetition by substituting different words for the same concept. "Reading for enlightenment" and "reading for insight" may express the same term. Assuming every word-change signals a term-change is as serious an error as assuming every repeated word carries the same term. Tracking the author's *terminology* (list of meanings) separately from the *vocabulary* (list of words) — as two columns — clarifies this.
+
+2. *One word, many terms (legitimate polysemy)*: A word with several related meanings can be used to cover some or all of those meanings at once. This is not ambiguity. Ambiguity is using a word in multiple senses *without* distinguishing or relating them. An author who marks the shifts and enables the reader to track them is offering terms; one who shifts unmarked is preventing communication.
+
+Phrases deserve brief mention: a phrase can express a term just as a single word can, and is generally *less* ambiguous than a single word because the surrounding words in the phrase mutually restrict meaning. Authors who want to guarantee understanding often substitute an elaborate phrase for a single word.
+
+**Closing.** Adler acknowledges that Chapter 8 has been hard to write and hard to read — the topic properly requires a full treatment of grammar and logic, which has only been sketched here. The practical reward, however, is large: finding the important words, identifying their shifting meanings, and working to come to terms will enormously increase comprehension of any difficult book. "Seldom does such a small change in a habit have such a large effect."
+
 ## Key Ideas
 
 *2026-04-23*
@@ -247,6 +278,20 @@ Chapter 7 presents Rules 2, 3, and 4 of analytical reading, completing the First
 - **Problems precede books** — every book is an answer to a question; formulating the author's questions is the last step of the First Stage and often the hardest, because it forces the reader to think as the author was thinking.
 - **Theoretical vs. practical questions have different structures** — theoretical questions ask what is the case (existence, kind, cause, effect); practical questions ask what should be done (ends, means, right action); knowing the difference shapes how the reader evaluates the author's success.
 - **Rules 1–4 form a complete unit** — the First Stage of Analytical Reading is closed and self-contained; completing all four rules answers "What is the book about as a whole?" before moving to the deeper questions of the Second Stage.
+
+*2026-05-04*
+
+- **Words and terms are not the same thing** — a word is a physical symbol carrying multiple potential meanings; a term is a word used unambiguously within a given communicative act; the distinction is between language as such and language as a vehicle for thought.
+- **Terms exist only in communication, not in dictionaries** — a dictionary lists words and their possible meanings; terms arise only when writer and reader successfully pin a word to the same meaning simultaneously; coming to terms is the primary achievement of interpretive reading.
+- **Communication fails wherever ambiguity is unresolved** — sharing words is not sharing meanings; unresolved ambiguity leaves only the appearance of communication; the miracle of two minds with a single thought requires both parties to work.
+- **Rule 5 has two indispensable steps** — locate the important words (grammatical); determine their meanings as the author uses them (logical); both are required, and neither substitutes for the other.
+- **Language is both the only medium and the chief obstacle** — interpretive reading rules exist precisely because language imperfectly conveys thought; the reader must tunnel through the barrier from the reader's side to meet the writer halfway.
+- **The words that trouble you are the important ones** — confusion signals a word being used in a special, non-ordinary way; this is the reader's most reliable diagnostic, and the instruction to mark troubling words is its practical application.
+- **Every field of knowledge has its own technical vocabulary** — recognizing this narrows the search for key words; prior knowledge of the field, or structural knowledge from the First Stage, helps separate technical from ordinary words.
+- **Meanings are found by using context you already have** — like a jigsaw puzzle: words already placed as terms help determine the placement of remaining words; no meaning is in principle beyond reach, but there is no shortcut.
+- **One word may carry many terms; one term may be expressed by many words** — both relationships are normal in skilled writing; failing to recognize either leads to systematic misreading.
+- **Using a word in multiple senses is not ambiguity** — an author who distinguishes and relates the several senses of a word is being precise; ambiguity arises only from shifting between senses without marking or relating them.
+- **The outstanding fault of non-active readers is inattention to words** — most readers slide past the words that cause trouble rather than marking and working on them; this is the single most common reason for failure to come to terms.
 
 ## Key Words
 
@@ -353,6 +398,28 @@ Chapter 7 presents Rules 2, 3, and 4 of analytical reading, completing the First
 **Practical Questions** — questions whose answers are always about what should be done; subcategories: ends (what should be sought?), means (what actions best achieve those ends?), and rightness (is this the right thing to do?). *"Practical questions are answered by showing what should be done."*
 
 **First Stage of Analytical Reading** — the collective name for Rules 1–4; the stage that answers the master question "What is the book about as a whole?" by classifying the book, stating its unity, outlining its parts, and finding the author's problems; it is completed before any judgment or interpretation can begin. *"We have now completed our discussion of the first stage of analytical reading."*
+
+*2026-05-04*
+
+**Word (as opposed to term)** — a physical symbol (mark on page or sound spoken) carrying multiple potential meanings; inherently ambiguous in isolation; the raw material from which terms are made. *"A term can be defined as an unambiguous word... What we should have said is that a term is a word used unambiguously."*
+
+**Term** — a word used unambiguously within a given communicative act; the unit of intellectual exchange between writer and reader; exists only in successful communication, never in dictionaries alone. *"Terms occur only in the process of communication. They occur when a writer tries to avoid ambiguity and a reader helps him by trying to follow his use of words."*
+
+**Rule 5 of Analytical Reading** — the first rule of the Second Stage: find the important words in a book and through them come to terms with the author; has two parts — locating the key words (the grammatical step) and determining their meanings as used (the logical step). *"Find the important words and through them come to terms with the author."*
+
+**Second Stage of Analytical Reading** — the stage concerned with interpreting a book's contents or message, as distinct from the First Stage (outlining structure); its rules each require both a grammatical step (words) and a logical step (terms/meanings); begins with Rule 5. *"This is the first rule for the second stage of analytical reading, the aim of which is not the outlining of a book's structure but the interpretation of its contents or message."*
+
+**Grammatical Step** — the first part of each rule of interpretive reading: finding and identifying the words in the text; deals with language as such; precedes but does not substitute for the logical step. *"The grammatical aspect is the one that deals with words."*
+
+**Logical Step** — the second part of each rule of interpretive reading: moving beyond words to the meanings or terms they carry; determining what thought the author is expressing through the language; cannot be taken without the grammatical step. *"The logical step deals with their meanings or, more precisely, with terms."*
+
+**Technical Vocabulary** — the set of words a given field of knowledge uses in special, non-ordinary senses; every field has one; readers can identify technical words positively (prior familiarity with the field) or negatively (the words are not ordinary for them). *"Every field of knowledge has its own technical vocabulary."*
+
+**Coming to Terms** — the state achieved when writer and reader use the same words with the same meanings; the primary goal of Rule 5 and of the Second Stage; an ideal admitting of degrees, never perfectly reached but worth striving toward. *"When writer and reader somehow manage for a time to use a given word with one and only one meaning, then, during that time of unambiguous usage, they have come to terms."*
+
+**Vocabulary vs. Terminology** — a practical distinction for tracking the word-term relationship: a book's *vocabulary* is the list of its important words; its *terminology* is the list of the important meanings those words carry; tracking both in separate columns clarifies the many-to-many mapping between them and reveals where one word carries several terms and where one term is expressed by several words.
+
+**Ambiguity (in authorial usage)** — using a word in two or more senses without distinguishing or relating them; the failure mode that prevents coming to terms; distinguished from legitimately using a word in multiple related senses, which is precise rather than ambiguous if the author marks and relates the shifts. *"To use a word ambiguously is to use it in several senses without distinguishing or relating their meanings."*
 
 ## Personal Takeaways
 
