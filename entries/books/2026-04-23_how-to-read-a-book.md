@@ -201,6 +201,26 @@ Phrases deserve brief mention: a phrase can express a term just as a single word
 
 **Closing.** Adler acknowledges that Chapter 8 has been hard to write and hard to read — the topic properly requires a full treatment of grammar and logic, which has only been sketched here. The practical reward, however, is large: finding the important words, identifying their shifting meanings, and working to come to terms will enormously increase comprehension of any difficult book. "Seldom does such a small change in a habit have such a large effect."
 
+*2026-05-05*
+
+*From Chapter 9: Determining an Author's Message*
+
+Chapter 9 introduces Rules 6, 7, and 8 of the Second Stage of Analytical Reading, completing the interpretive stage. Together with Rule 5 from Chapter 8, these four rules fully answer the second basic question: "What is being said in detail, and how?"
+
+**Rule 6 — Find the Key Sentences.** Not all sentences in a book are important. The key sentences are those that carry the author's major affirmations and denials — his leading propositions. The diagnostic: sentences that *puzzle* you are the important ones, not merely the sentences that interest or please you. Interesting sentences are already at your level; puzzling sentences are operating beyond it. Key words and key sentences are mutually locating — following a flagged word leads to the sentence containing it, and a puzzling sentence leads back to the words that need to be resolved.
+
+**Sentences vs. Propositions.** The chapter draws a fundamental distinction: sentences are grammatical units; propositions are logical units. They are not one-to-one. A single sentence can express multiple propositions; the same proposition can be expressed by multiple sentences. Adler uses Machiavelli to illustrate a sentence carrying several distinct claims. The reader's task is always to move from the grammatical to the logical level — to extract what is being asserted, not just to note how it is said.
+
+**Testing for Propositions — Stating in Your Own Words.** The test of whether you have grasped a proposition: state it in your own words. If you can only repeat the author's exact wording, you have memorized the sentence but missed the thought — this is verbalism. A more demanding second test: can you give a concrete example of what the proposition means? If so, you have genuinely connected it to reality.
+
+**Rule 7 — Find the Arguments.** Arguments are not individual propositions but sequences of propositions — chains of reasoning connecting premises to conclusions. Three guidelines for finding them: (1) Identify the conclusion first and work back to the reasons, or identify the premises first and follow them forward to the conclusion. (2) Distinguish inductive arguments (reasoning from particular cases to a general conclusion) from deductive ones (reasoning from premises to a necessary conclusion). (3) Distinguish three logical statuses of propositions: those the author merely assumes, those he intends to prove, and those he regards as self-evident.
+
+**Self-Evident Propositions.** The chapter examines what it means for a proposition to be indemonstrable but undeniable. The example — "the whole is greater than any of its parts" — is not a tautology; it is genuinely informative. Knowing it tells us something real, because it is grounded in universal human experience rather than being merely definitional. Self-evident propositions form the bedrock of argumentation; recognizing them prevents demanding proof for what is already obviously true.
+
+**Rule 8 — Find the Solutions.** The final rule of the Second Stage: after coming to terms, grasping propositions, and tracing arguments, determine which of the author's problems have been solved and which have not. Of those unsolved, identify which the author himself knew he had failed to solve. A good writer knows when a problem has been genuinely resolved and when it merely appears to have been; the reader's job is to make the same judgment independently.
+
+**Second Stage Complete.** Rules 5-8 together answer the second basic question. When all four have been applied, the reader can feel sure of having understood the book. The Third Stage — criticizing the book fairly — now follows. Up to this point, the reader has been following the author with mind open and mouth shut; from here, the reader gets to argue back.
+
 ## Key Ideas
 
 *2026-04-23*
@@ -292,6 +312,21 @@ Phrases deserve brief mention: a phrase can express a term just as a single word
 - **One word may carry many terms; one term may be expressed by many words** — both relationships are normal in skilled writing; failing to recognize either leads to systematic misreading.
 - **Using a word in multiple senses is not ambiguity** — an author who distinguishes and relates the several senses of a word is being precise; ambiguity arises only from shifting between senses without marking or relating them.
 - **The outstanding fault of non-active readers is inattention to words** — most readers slide past the words that cause trouble rather than marking and working on them; this is the single most common reason for failure to come to terms.
+
+*2026-05-05*
+
+- **Sentences are grammatical; propositions are logical** — the same sentence can carry multiple propositions, and the same proposition can be expressed by multiple sentences; Rule 6 requires moving past the surface to what is actually being claimed.
+- **Puzzlement, not interest, flags the key sentences** — sentences that merely interest you are already at your level; sentences that puzzle you exceed it and are therefore the author's most important ones.
+- **Key words and key sentences are mutually locating** — following a flagged term leads to a key sentence; a puzzling sentence leads back to the terms that need resolution; the two levels reinforce each other.
+- **Verbalism is the failure to get from words to thought** — being able to repeat the author's words does not mean you have understood the proposition; the minimum threshold is being able to state it in your own words.
+- **Exemplification confirms comprehension** — the more demanding test: if you cannot give a concrete example of what a proposition means, you do not genuinely understand it; connecting the thought to a real case shows it has been absorbed.
+- **Arguments are sequences of propositions, not single propositions** — following an argument means tracing the movement from premises to conclusion across multiple sentences; a single proposition, however important, is not yet an argument.
+- **Inductive vs. deductive is a structural distinction** — inductive arguments move from particulars to a generalization; deductive arguments move from premises to a necessary conclusion; knowing the type changes how you evaluate the reasoning.
+- **Not all propositions have the same logical status** — assumed propositions are the author's undefended starting points; proved propositions are conclusions supported by argument; self-evident propositions are indemonstrable but undeniable; misidentifying the category leads to misreading the book.
+- **Self-evident propositions are informative, not empty** — "the whole is greater than any of its parts" is not a tautology; it conveys genuine knowledge grounded in common experience; demanding proof for what is self-evident is a misuse of critical energy.
+- **Rule 8 completes the interpretive stage** — after determining the author's solutions (or failures), the reader has done everything possible to understand the book; nothing further is owed to the author before judgment begins.
+- **Rules 5-8 together answer the second basic question** — "What is being said in detail, and how?" is fully answered only after terms, propositions, arguments, and solutions have all been worked through.
+- **The Second Stage requires keeping your mouth shut** — interpretive reading demands full subordination of the reader's own views to the task of understanding; the Third Stage is where the reader finally gets to respond, argue, and judge.
 
 ## Key Words
 
@@ -420,6 +455,32 @@ Phrases deserve brief mention: a phrase can express a term just as a single word
 **Vocabulary vs. Terminology** — a practical distinction for tracking the word-term relationship: a book's *vocabulary* is the list of its important words; its *terminology* is the list of the important meanings those words carry; tracking both in separate columns clarifies the many-to-many mapping between them and reveals where one word carries several terms and where one term is expressed by several words.
 
 **Ambiguity (in authorial usage)** — using a word in two or more senses without distinguishing or relating them; the failure mode that prevents coming to terms; distinguished from legitimately using a word in multiple related senses, which is precise rather than ambiguous if the author marks and relates the shifts. *"To use a word ambiguously is to use it in several senses without distinguishing or relating their meanings."*
+
+*2026-05-05*
+
+**Rule 6 of Analytical Reading** — the rule requiring the reader to mark the most important sentences in a book and discover the propositions they contain; the grammatical step is identifying the sentences; the logical step is extracting the propositions from them. *"Grasp the author's leading propositions by dealing with his most important sentences."*
+
+**Proposition** — the logical unit of meaning expressed by a sentence or group of sentences; the thought conveyed, as distinct from the grammatical form in which it is expressed; the essential content of an assertion, affirmation, or denial. *"A sentence and a proposition are quite different."*
+
+**Sentence (as opposed to Proposition)** — the grammatical unit of discourse: a structured sequence of words that may express one or several propositions; the vehicle for propositions but not identical to them; the same sentence can carry multiple propositions, and the same proposition can be expressed by multiple sentences.
+
+**Verbalism** — the failure to move from words to thought; being able to recognize and repeat a sentence without grasping the proposition it expresses; the opposite of genuine understanding. *"If you cannot get beyond the words the author uses, or find other words that convey the same meaning, you are not yet understanding."*
+
+**The "Own Words" Test** — Adler's practical test for whether a proposition has been genuinely understood: state it in your own words, not the author's; if you can only reproduce the original wording, you have memorized the sentence but not understood the thought it carries.
+
+**Exemplification** — the act of providing a concrete example of what an abstract proposition means; Adler's more demanding comprehension test, beyond restating in one's own words; the ability to point to an instance demonstrates that the proposition has been connected to reality.
+
+**Rule 7 of Analytical Reading** — the rule requiring the reader to locate or construct the author's arguments by finding them in, or building them from, sequences of sentences; the grammatical step is identifying the relevant sentences; the logical step is recognizing the argument they jointly constitute. *"Know the author's arguments, by finding them in, or constructing them out of, sequences of sentences."*
+
+**Inductive Argument** — an argument that moves from a set of particular cases or observations to a general conclusion; the conclusion goes beyond what the evidence strictly requires; contrasted with deduction in evaluating the strength of the author's reasoning.
+
+**Deductive Argument** — an argument in which the conclusion follows necessarily from the premises; if the premises are true, the conclusion cannot be false; the certainty of the conclusion is proportional to the certainty of the premises.
+
+**Self-Evident Proposition** — a proposition that is indemonstrable (cannot be proved from prior propositions) but also undeniable given ordinary human experience; not a tautology; genuinely informative. *"The whole is greater than any of its parts."*
+
+**Rule 8 of Analytical Reading** — the final rule of the Second Stage: find out what the author's solutions are; determine which problems were solved, which were not, and which the author himself acknowledged failing to solve; ties together and closes the interpretive stage. *"Determine which of his problems the author has solved, and which he has not; and as to the latter, decide which the author knew he had failed to solve."*
+
+**Second Stage of Analytical Reading (complete)** — the stage answering "What is being said in detail, and how?"; encompasses Rules 5-8; completed when the reader has come to terms, grasped the leading propositions, identified the arguments, and determined the solutions; prerequisite for the Third Stage, which is criticizing the book fairly.
 
 ## Personal Takeaways
 
