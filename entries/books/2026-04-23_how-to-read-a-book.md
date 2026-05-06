@@ -313,6 +313,21 @@ Chapter 9 introduces Rules 6, 7, and 8 of the Second Stage of Analytical Reading
 - **Using a word in multiple senses is not ambiguity** — an author who distinguishes and relates the several senses of a word is being precise; ambiguity arises only from shifting between senses without marking or relating them.
 - **The outstanding fault of non-active readers is inattention to words** — most readers slide past the words that cause trouble rather than marking and working on them; this is the single most common reason for failure to come to terms.
 
+*2026-05-06*
+
+- **Understanding is necessary but not sufficient** — active reading must be completed by the work of judging; a reader who simply puts a book down without rendering a critical judgment is doing the author an injustice.
+- **Teachability is an active virtue, not passive acceptance** — the most teachable reader is the most critical one; the teachable person freely exercises independent judgment after fully hearing the teacher out, not before and not instead.
+- **Three arts govern three stages** — grammar and logic govern Stages 1 and 2 (intelligibility and understanding); rhetoric — knowing how to respond to communication aimed at convincing or persuading — governs Stage 3.
+- **Rule 9: understand before criticizing** — "I understand" must precede "I agree," "I disagree," or "I suspend judgment"; these three remarks exhaust all critical positions, and none can be honestly rendered without the first.
+- **Agreeing is as much an act of critical judgment as disagreeing** — to agree without understanding is inane; to disagree without understanding is impudent; the error of treating criticism as synonymous with disagreement is widespread and wrong.
+- **Stage 3 cannot be combined with Stages 1 and 2** — the expert reader may combine the first two stages almost completely, but even the expert must understand before criticizing; the third stage always follows the other two in time.
+- **Reading part of a book, or ignoring an author's other works, weakens the claim to understanding** — caution about saying "I understand" is proportional to how much of the relevant context has been read; critics who judge Kant or Aristotle from a single work without the others exemplify brash over-confidence.
+- **Rule 10: don't be contentious** — treat conversation as a truth-seeking exercise, not a battle; the reader should be as prepared to agree as to disagree; all motivation should come from the facts, not from the desire to win.
+- **Winning against a book you know you misread is an empty satisfaction** — the author cannot defend himself; the reader can always seem to win privately; the only real profit is what is learned, not what appears to be refuted.
+- **Rule 11: give reasons for critical judgments** — distinguishing knowledge from opinion is the reader's obligation as much as the author's; agreeing without sharing reasons, or disagreeing without giving grounds, treats a matter of knowledge as mere personal feeling.
+- **Disagreements are in principle resolvable** — most disagreements arise from misunderstanding (curable by coming to terms) or unequal knowledge (curable by instruction); treating disagreement as a ping-pong of equally entitled opinions makes learning impossible.
+- **Knowledge is defensible opinion, not absolute certainty** — what makes something knowledge rather than mere opinion is that it is supported by evidence other reasonable people can accept; this standard is achievable for most claims without demanding impossible certainty.
+
 *2026-05-05*
 
 - **Sentences are grammatical; propositions are logical** — the same sentence can carry multiple propositions, and the same proposition can be expressed by multiple sentences; Rule 6 requires moving past the surface to what is actually being claimed.
@@ -456,6 +471,34 @@ Chapter 9 introduces Rules 6, 7, and 8 of the Second Stage of Analytical Reading
 
 **Ambiguity (in authorial usage)** — using a word in two or more senses without distinguishing or relating them; the failure mode that prevents coming to terms; distinguished from legitimately using a word in multiple related senses, which is precise rather than ambiguous if the author marks and relates the shifts. *"To use a word ambiguously is to use it in several senses without distinguishing or relating their meanings."*
 
+*2026-05-06*
+
+**Third Stage of Analytical Reading** — the final stage, governed by the art of rhetoric; the reader "talks back" to the author by rendering a critical judgment of agreement, disagreement, or suspended judgment; can only begin after the first two stages are complete. *"The activity of reading does not stop with the work of understanding what a book says. It must be completed by the work of judging."*
+
+**Teachability** — the active virtue of responding to instruction by exercising one's full power of independent judgment after fully understanding what has been taught; frequently misunderstood as passive pliability; the most teachable reader is the most critical one. *"The most teachable reader is, therefore, the most critical."*
+
+**Rhetoric (Stage 3 art)** — in its broadest sense, the art of convincing and persuading, and of knowing how to respond to communication that attempts to convince or persuade; not oratory or manipulation; the art governing the reader's critical reaction in Stage 3. *"This last set of rules goes beyond understanding to critical judgment. Here is where rhetoric comes in."*
+
+**Responsive Listener** — a reader or listener who follows what is being said and notes the intention behind it; the first dimension of serious engagement with communication; necessary but insufficient without the second dimension.
+
+**Responsible Listener** — a reader or listener who takes a position of their own in response to communication; the second dimension of serious engagement; to regard anyone else as responsible for one's own judgment is to be a slave, not a free person.
+
+**Rule 9 of Analytical Reading** — the first rule of the Third Stage: you must be able to say, with reasonable certainty, "I understand," before you can say "I agree," "I disagree," or "I suspend judgment"; the rule that imposes temporal ordering on the three stages. *"You must be able to say, with reasonable certainty, 'I understand,' before you can say any one of the following things: 'I agree,' or 'I disagree,' or 'I suspend judgment.'"*
+
+**The Three Critical Positions** — the exhaustive set of critical stances a reader can take after understanding a book: "I agree," "I disagree," or "I suspend judgment"; any of the three can be taken correctly or incorrectly; none can be taken honestly without prior understanding.
+
+**Rule 10 of Analytical Reading** — the second rule of the Third Stage: when you disagree, do so reasonably and not disputatiously or contentiously; be as prepared to agree as to disagree; let the only motivation be truth, not victory. *"When you disagree, do so reasonably, and not disputatiously or contentiously."*
+
+**Contentiousness** — the error of treating intellectual conversation as a battle to be won rather than a truth to be found; the disputatious reader reads only to find something to disagree with; condemned by both Plato and Aristotle as a failure to honor truth above argument.
+
+**Rule 11 of Analytical Reading** — the third rule of the Third Stage: respect the difference between knowledge and mere personal opinion by giving reasons for any critical judgment you make; also requires regarding disagreements about matters of knowledge as in principle resolvable. *"Respect the difference between knowledge and mere personal opinion, by giving reasons for any critical judgment you make."*
+
+**Knowledge (as opposed to Opinion)** — opinions that can be defended; judgments for which there is objective evidence that other reasonable people are likely to accept; held subject to correction but distinguishable from personal feeling by the existence of shareable grounds. *"Knowledge, if you please, consists in those opinions that can be defended, opinions for which there is evidence of one kind or another."*
+
+**Opinion (mere personal opinion)** — unsupported judgment; personal feeling or prejudice without objective grounds; cannot generate profitable conversation or learning because it admits no resolution by appeal to facts or reason.
+
+**Intellectual Etiquette** — Adler's term for the general maxims of the Third Stage; the code of conduct that makes critical conversation profitable rather than merely combative; the conditions under which talking back to an author can be conducted fairly and effectively.
+
 *2026-05-05*
 
 **Rule 6 of Analytical Reading** — the rule requiring the reader to mark the most important sentences in a book and discover the propositions they contain; the grammatical step is identifying the sentences; the logical step is extracting the propositions from them. *"Grasp the author's leading propositions by dealing with his most important sentences."*
@@ -481,6 +524,30 @@ Chapter 9 introduces Rules 6, 7, and 8 of the Second Stage of Analytical Reading
 **Rule 8 of Analytical Reading** — the final rule of the Second Stage: find out what the author's solutions are; determine which problems were solved, which were not, and which the author himself acknowledged failing to solve; ties together and closes the interpretive stage. *"Determine which of his problems the author has solved, and which he has not; and as to the latter, decide which the author knew he had failed to solve."*
 
 **Second Stage of Analytical Reading (complete)** — the stage answering "What is being said in detail, and how?"; encompasses Rules 5-8; completed when the reader has come to terms, grasped the leading propositions, identified the arguments, and determined the solutions; prerequisite for the Third Stage, which is criticizing the book fairly.
+
+*2026-05-06*
+
+*From Chapter 10: Criticizing a Book Fairly*
+
+Chapter 10 opens the Third Stage of Analytical Reading — talking back to the author. Where the first two stages required understanding, this stage demands judgment. The chapter establishes three general maxims (Rules 9, 10, and 11) that govern the intellectual etiquette of criticism before Chapter 11 addresses specific grounds for disagreement.
+
+**The Obligation to Criticize.** Reading is a conversation between reader and author. The activity of reading does not stop with understanding what a book says; *it must be completed by the work of judging.* The undemanding reader who simply puts a book down without critical engagement is doing the author an injustice. If the author's aim was to instruct, his effort is crowned with success only if the reader finally takes a considered position — even if that position is disagreement. The reader owes the author a judgment, not mere reception.
+
+**Teachability as a Virtue.** The common misconception is that teachability means passive acceptance — that a teachable reader simply defers to superior books without criticism. Adler argues the opposite: *the most teachable reader is the most critical one.* Teachability is an active virtue. A person who does not freely exercise independent judgment can be trained but not taught. Teachability requires that the teacher be fully heard and understood before being judged; it does not require that judgment be withheld permanently. Failing to criticize after understanding is an injustice — the author has worked to elevate the reader to equality; the reader should now act as an equal.
+
+**The Role of Rhetoric.** The three arts of grammar, logic, and rhetoric govern the three stages of analytical reading. Grammar and logic underlie Stages 1 and 2, where the aim is intelligibility and understanding. Rhetoric — in its broadest sense as the art of convincing and persuading, and of responding to those efforts — governs Stage 3. The serious reader must be not only *responsive* (following what is said, noting the intention) but also *responsible* (taking a position that is their own, not the author's). Claiming another is responsible for one's judgments is to be a slave, not a free person; this is why the liberal arts acquire their name.
+
+**Rule 9 — Suspend Judgment Until Understanding is Complete.** Before saying "I agree," "I disagree," or "I suspend judgment," the reader must be able to say "I understand" with reasonable certainty. These three remarks exhaust all critical positions. Criticizing is not synonymous with disagreeing — agreeing is equally an exercise of critical judgment, and can be done just as wrongly as disagreeing. "To agree without understanding is inane. To disagree without understanding is impudent." The third stage must always follow the first two in time. The first two stages can interpenetrate and even be largely combined by an expert reader; but no one, expert or beginner, can combine Stage 3 with the others — understanding must come first.
+
+Two special cases where the rule demands extra caution: (1) reading only part of a book makes it harder to claim understanding, so criticism should be more hesitant; (2) a book that depends on the author's other works for its full significance requires reading those works before judgment. Adler illustrates: critics who judge Aristotle's *Poetics* without his works on psychology, logic, and metaphysics, or who read Kant's *Critique of Pure Reason* without his *Critique of Practical Reason*, are more likely than not to criticize something they do not actually understand.
+
+**Rule 10 — Avoid Contentiousness.** When you disagree, do so reasonably and not disputatiously. The contentiousness mistake is treating conversation as a battle to be won rather than a truth to be found. The reader who approaches a book as an antagonist reads only to find something to disagree with; for such a reader, a bone can always be found to pick. But the author cannot defend himself, and the reader can always seem to win in the privacy of his own study. This satisfaction is empty. The real profit in any conversation — with living or dead teachers — is what you can *learn*, and you win only by gaining knowledge, not by knocking the other fellow down. The reader should be *as prepared to agree as to disagree*; whichever he does should be motivated by one consideration alone: the facts, the truth about the case.
+
+**Rule 11 — Respect the Difference Between Knowledge and Opinion.** When you make a critical judgment, give reasons for it. If you agree, actively sharing the author's reasons is sufficient. If you disagree, you must supply your own grounds — otherwise you are treating a matter of knowledge as if it were mere opinion. An author who gives no reasons for his propositions can only be treated as expressing personal opinion; a reader who gives no reasons for his disagreements is doing the same thing. This rule also carries a further implication: regard disagreements about matters of knowledge as in principle *resolvable*. Disagreement without any hope of resolution is futile agitation — a ping-pong of opinions where no one learns. Most disagreements arise from either misunderstanding (an apparent disagreement, curable by coming to terms) or unequal knowledge (a real but remediable disagreement, curable by instruction). The reader who disagrees should keep open the possibility that he misunderstands something, or that the author knows something he does not. Disagreement is also an occasion for being taught.
+
+**Knowledge vs. Opinion.** Knowledge, in the sense this rule invokes, does not require absolute certainty. What makes a claim knowledge rather than mere opinion is that it is a defensible position for which objective evidence exists that other reasonable people are likely to accept. Opinion, in the strict sense, is unsupported judgment — personal feeling or prejudice without grounds. The distinction matters because if we treat all disagreement as merely a clash of equally entitled opinions, no communication can be profitable and no conversation can lead to learning.
+
+**The Three Maxims Together.** Rule 9 requires completing understanding before criticism. Rule 10 requires non-contentiousness — openness to agreement as readily as to disagreement. Rule 11 requires grounding critical judgments in reasons and regarding disagreements as resolvable in principle. The three together state the conditions of a critical reading and the manner in which a reader should proceed to talk back.
 
 ## Personal Takeaways
 
