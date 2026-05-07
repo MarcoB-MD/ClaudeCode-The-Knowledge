@@ -1,6 +1,6 @@
 # Tag Index
 
-_Last updated: 2026-05-03_
+_Last updated: 2026-05-07_
 
 This index is maintained automatically by Claude. Each tag lists all entries that carry it. Updated every time an entry is added or edited.
 
@@ -34,6 +34,7 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## cognitive-bias
 
 - [Fooled by Randomness](../entries/audiobooks/2026-04-22_fooled-by-randomness.md) — Nassim Nicholas Taleb (audiobook, 2026-04-22)
+- [Thinking scientifically: why it's hard, why it matters, and a practical toolkit](../entries/podcasts/2026-05-07_thinking-scientifically.md) — Peter Attia (podcast, 2026-05-07)
 
 ## comprehension
 
@@ -48,10 +49,12 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## critical-thinking
 
 - [How to Read a Book](../entries/books/2026-04-23_how-to-read-a-book.md) — Mortimer J. Adler & Charles Van Doren (book, 2026-04-23)
+- [Thinking scientifically: why it's hard, why it matters, and a practical toolkit](../entries/podcasts/2026-05-07_thinking-scientifically.md) — Peter Attia (podcast, 2026-05-07)
 
 ## decision-making
 
 - [Fooled by Randomness](../entries/audiobooks/2026-04-22_fooled-by-randomness.md) — Nassim Nicholas Taleb (audiobook, 2026-04-22)
+- [Thinking scientifically: why it's hard, why it matters, and a practical toolkit](../entries/podcasts/2026-05-07_thinking-scientifically.md) — Peter Attia (podcast, 2026-05-07)
 
 ## diagnostics
 
@@ -60,6 +63,14 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 ## education
 
 - [How to Read a Book](../entries/books/2026-04-23_how-to-read-a-book.md) — Mortimer J. Adler & Charles Van Doren (book, 2026-04-23)
+
+## epistemology
+
+- [Thinking scientifically: why it's hard, why it matters, and a practical toolkit](../entries/podcasts/2026-05-07_thinking-scientifically.md) — Peter Attia (podcast, 2026-05-07)
+
+## evidence-based-medicine
+
+- [Thinking scientifically: why it's hard, why it matters, and a practical toolkit](../entries/podcasts/2026-05-07_thinking-scientifically.md) — Peter Attia (podcast, 2026-05-07)
 
 ## exercise
 
@@ -175,6 +186,10 @@ This index is maintained automatically by Claude. Each tag lists all entries tha
 
 - [Fooled by Randomness](../entries/audiobooks/2026-04-22_fooled-by-randomness.md) — Nassim Nicholas Taleb (audiobook, 2026-04-22)
 - [There Is No Safe Gamble with High LDL Cholesterol](../entries/articles/2026-04-27_there-is-no-safe-gamble-with-high-ldl-cholesterol.md) — Peter Attia, Tom Dayspring, Research Team (article, 2026-04-27)
+
+## scientific-thinking
+
+- [Thinking scientifically: why it's hard, why it matters, and a practical toolkit](../entries/podcasts/2026-05-07_thinking-scientifically.md) — Peter Attia (podcast, 2026-05-07)
 
 ## screening
 
