@@ -245,6 +245,30 @@ Two special cases where the rule demands extra caution: (1) reading only part of
 
 **The Three Maxims Together.** Rule 9 requires completing understanding before criticism. Rule 10 requires non-contentiousness — openness to agreement as readily as to disagreement. Rule 11 requires grounding critical judgments in reasons and regarding disagreements as resolvable in principle. The three together state the conditions of a critical reading and the manner in which a reader should proceed to talk back.
 
+*2026-05-07*
+
+*From Chapter 11: Agreeing or Disagreeing With an Author*
+
+Chapter 11 translates the general maxims of Rules 9–11 into specific criteria for disagreement — the four ways a reader may legitimately talk back after claiming to understand. The chapter opens by drawing a sharp distinction between genuine and apparent disagreement. Apparent disagreement is really misunderstanding: the parties mean different things by the same words and are not arguing about the same proposition at all. The "all men are equal" example illustrates the point — two people who mean different things by "equal" are not yet in genuine controversy. Genuine disagreement requires that both parties hold the same propositions with different truth-values, which is only possible after coming to terms is complete.
+
+**Three conditions for productive controversy.** Before deploying the specific criteria, the reader should: (1) acknowledge the emotions brought to the dispute; (2) make assumptions explicit — a good controversy is not a quarrel about assumptions; (3) attempt impartiality and try to take the other fellow's point of view.
+
+**Critique 1 — Uninformed.** The author's conclusions are faulty because he lacked relevant knowledge. The objection must name the missing knowledge and show how it bears on the conclusions. Darwin lacked genetics; Gibbon lacked certain historical facts. The criterion has limits in philosophy, where all relevant experience may have been available to the ancient thinker — Hume and the Presocratic philosophers had access to essentially the same ordinary human experience we do, so "uninformed" cannot be applied as freely there as in empirical science.
+
+**Critique 2 — Misinformed.** The author asserts what is not the case — a claim contrary to fact — and the error is relevant to his conclusions. Examples: Spinoza's view that democracy is more primitive than monarchy; Aristotle's account of the female role in reproduction; Aquinas on the nature of heavenly bodies.
+
+**Critique 3 — Illogical.** Two forms: (a) non sequitur — the conclusion doesn't follow from the reasons given; (b) inconsistency — two things the author says are mutually incompatible. The reader must identify the specific respect in which cogency fails. Machiavelli's Prince supplies a non sequitur: "where well-armed they have good laws" does not follow from the claim that good laws require adequate force. Hobbes's Elements of Law supplies an inconsistency: the world of bodies has no qualities, yet sensory qualities are said to exist as motions of brain atoms — the first claim makes the second impossible.
+
+**Critique 4 — Incomplete.** The author has not solved all problems he set, has not used his materials to the best advantage, has failed to see all implications, or has failed to make relevant distinctions. This cannot be asserted generally — all books are incomplete. It must be specified precisely. Aristotle's Politics failed to conceive universal suffrage, representative government, or the federated state — limitations tied to his time and his acceptance of slavery. Euclid's Elements failed to consider alternative postulates about parallel lines, which left the door open for non-Euclidean geometry. Dewey's How We Think treats only the thinking involved in investigative discovery and never addresses the kind of thinking required when learning by instruction.
+
+**Critical asymmetry.** The first three critiques are grounds for disagreement. The fourth is not. Finding a book incomplete marks the limits of achievement but does not constitute a basis for saying "I disagree." A reader who finds no grounds for Critiques 1–3 but notes Critique 4 may suspend judgment but cannot disagree. Suspended judgment is the appropriate third critical position when incompleteness alone is found.
+
+**Compulsion to agree.** If you cannot show the author is uninformed, misinformed, or illogical on relevant matters, you must agree. "You have no freedom of will about this." Claiming disagreement while conceding that the premises are sound and the reasoning is valid is not disagreement — it is expressing emotions or prejudices, not taking a critical position.
+
+**All 15 rules gathered.** The chapter closes by listing and relating all 15 rules to the four basic questions: Rules 1–4 answer "What is it about?"; Rules 5–8 answer "What is being said in detail?"; Rules 9–15 together answer "Is it true?" and "What of it?" The rules describe an ideal performance that few have ever applied to any single book; the ideal is the measure nonetheless.
+
+**Being well-read.** Adler closes with a critique of modern reading culture: books are praised for novelty and sensationalism rather than truth, clarity, or power to enlighten. Being well-read is quality, not quantity — reading widely but not well deserves pity, not praise. Hobbes: "If I read as many books as most men do, I would be as dull-witted as they are." The great writers were great readers who read fewer books but read them well, becoming peers with their authors and, in turn, authors themselves.
+
 ## Key Ideas
 
 *2026-04-23*
@@ -366,6 +390,22 @@ Two special cases where the rule demands extra caution: (1) reading only part of
 - **Rule 11: give reasons for critical judgments** — distinguishing knowledge from opinion is the reader's obligation as much as the author's; agreeing without sharing reasons, or disagreeing without giving grounds, treats a matter of knowledge as mere personal feeling.
 - **Disagreements are in principle resolvable** — most disagreements arise from misunderstanding (curable by coming to terms) or unequal knowledge (curable by instruction); treating disagreement as a ping-pong of equally entitled opinions makes learning impossible.
 - **Knowledge is defensible opinion, not absolute certainty** — what makes something knowledge rather than mere opinion is that it is supported by evidence other reasonable people can accept; this standard is achievable for most claims without demanding impossible certainty.
+
+*2026-05-07*
+
+- **Genuine vs. apparent disagreement** — apparent disagreement is linguistic: the parties mean different things by the same words and argue past each other; genuine disagreement requires both parties to hold the same propositions with different truth-values; coming to terms must precede all controversy.
+- **Three conditions for well-conducted controversy** — (1) acknowledge emotions you bring; (2) make assumptions explicit; (3) attempt impartiality and try to take the other fellow's point of view; good controversy must not degenerate into a quarrel about unexamined assumptions.
+- **Critique 1 — Uninformed**: name the knowledge the author lacks and show how it bears on the conclusions; applies freely in empirical science and history (Darwin lacked genetics; Gibbon lacked historical facts) but has limits in philosophy, where all relevant ordinary experience may already have been available.
+- **Critique 2 — Misinformed**: identify a specific claim that is factually false and show it is relevant to the conclusions; not merely that something is incorrect but that the error matters for what the author is trying to establish.
+- **Critique 3 — Illogical**: identify either a non sequitur (conclusion doesn't follow from reasons given) or an inconsistency (two claims cannot both be true); must pinpoint the specific respect in which cogency fails; Machiavelli's Prince supplies a non sequitur; Hobbes's Elements of Law supplies an inconsistency about bodies and sensory qualities.
+- **Critique 4 — Incomplete**: specify precisely which problem was not solved, which implication was missed, or which distinction was not made; cannot simply say "this book is incomplete" — all books are; Aristotle failed to conceive representative government; Euclid failed to consider alternative postulates; Dewey failed to address learning by instruction.
+- **Critical asymmetry: incompleteness is not a basis for disagreement** — Critiques 1–3 are grounds for saying "I disagree"; Critique 4 marks limits of achievement; a reader who finds no grounds for 1–3 but notes 4 may suspend judgment but cannot disagree.
+- **Compulsion to agree** — if you cannot show uninformed, misinformed, or illogical on relevant matters, you must agree; "You have no freedom of will about this"; claiming disagreement while conceding sound premises and valid reasoning is emoting, not reasoning.
+- **First three critiques relate to Stage 2; the fourth to Stage 1** — Critiques 1–3 address the author's terms, propositions, and arguments; Critique 4 addresses the structure and completeness of the whole, connecting back to Rule 8 and the Stage 1 questions.
+- **All 15 rules gathered** — Stage 1 (Rules 1–4): classify, state unity, enumerate parts, define problems; Stage 2 (Rules 5–8): terms, propositions, arguments, solutions; Stage 3A (Rules 9–11): understand first, no contentiousness, give reasons; Stage 3B (Rules 12–15): uninformed, misinformed, illogical, incomplete.
+- **Rules answer the four basic questions** — Q1 answered by Rules 1–4; Q2 answered by Rules 5–8; Q3 and Q4 answered by Rules 9–15.
+- **Modern reading culture is indifferent to truth** — books are praised for novelty, sensationalism, or topicality rather than truth, clarity, or power to enlighten; Adler frames this as a narrowing of the standard by which books should be judged.
+- **Being well-read is quality, not quantity** — reading widely but not well deserves pity, not praise; Hobbes: "If I read as many books as most men do, I would be as dull-witted as they are"; great writers were great readers of fewer books, read deeply enough to become peers with their authors.
 
 ## Key Words
 
@@ -548,6 +588,28 @@ Two special cases where the rule demands extra caution: (1) reading only part of
 **Opinion (mere personal opinion)** — unsupported judgment; personal feeling or prejudice without objective grounds; cannot generate profitable conversation or learning because it admits no resolution by appeal to facts or reason.
 
 **Intellectual Etiquette** — Adler's term for the general maxims of the Third Stage; the code of conduct that makes critical conversation profitable rather than merely combative; the conditions under which talking back to an author can be conducted fairly and effectively.
+
+*2026-05-07*
+
+**Genuine Disagreement** — disagreement about the truth of shared propositions: both parties understand the same terms and hold different truth-values for the same assertions; contrasted with apparent disagreement, which is really a failure of mutual understanding. *"If you and I are arguing about the same proposition, we genuinely disagree; if we mean different things, our dispute is only apparent."*
+
+**Apparent Disagreement** — a clash that looks substantive but is only linguistic: the parties mean different things by the same words and are not actually arguing about the same proposition; requires coming to terms before genuine controversy is possible.
+
+**Critique 1 (Uninformed)** — the first specific criterion for disagreement in Stage 3: the author's conclusions are undermined because he lacked relevant knowledge; must name the missing knowledge and show how it bears on the conclusions; constrained in philosophy, where ordinary experience available to all may have been available to the author. *"Darwin couldn't have known about genetics, Gibbon lacked certain historical records."*
+
+**Critique 2 (Misinformed)** — the second specific criterion: the author asserts something contrary to fact; the factual error must be relevant to his conclusions, not merely incidental. *"Spinoza's views about democracy, Aristotle's about female contribution to reproduction, Aquinas's about heavenly bodies."*
+
+**Non Sequitur** — a logical fallacy in which the conclusion does not follow from the reasons given; one of two types of illogical reasoning addressed by Critique 3; Machiavelli's Prince is cited as an example: "where well-armed they have good laws" does not follow from good laws requiring adequate force. *"The conclusion simply does not follow from the reasons given for it."*
+
+**Inconsistency** — a logical fallacy in which two things the author asserts cannot both be true; the second type of illogical reasoning in Critique 3; Hobbes's Elements of Law is cited: the world of bodies has no qualities, yet sensory qualities are said to exist as motions of brain atoms. *"Two things he says are incompatible with each other."*
+
+**Critique 3 (Illogical)** — the third specific criterion for disagreement: the author's reasoning is not cogent, either because conclusions don't follow from premises (non sequitur) or because two claims are mutually contradictory (inconsistency); the reader must identify the specific respect in which cogency fails, not merely assert that the argument is bad.
+
+**Critique 4 (Incomplete)** — the fourth specific remark, which is NOT a basis for disagreement but marks limits of achievement: the author failed to solve all the problems he set, use his materials to best advantage, see all implications, or make relevant distinctions; must be specified precisely, not asserted in general; grounds for suspending judgment, not disagreeing. *"You must be able to say precisely what is incomplete, not merely that the book has not said everything that could be said on the subject."*
+
+**Compulsion to Agree** — Adler's term for the reader's logical obligation: if you cannot identify Critiques 1, 2, or 3 on relevant matters, you must agree; there is "no freedom of will" about this; claiming disagreement after conceding sound premises and valid reasoning is expressing emotion or prejudice, not taking a critical position. *"If you have been unable to show that an author is uninformed, misinformed, or illogical on relevant matters, you simply cannot disagree."*
+
+**Suspension of Judgment** — the third critical position, appropriate when the reader finds Critique 4 (incompleteness) but not Critiques 1–3; a legitimate stance that declines to agree or disagree, reserving verdict until the subject is more fully developed by other authors or further inquiry.
 
 ## Personal Takeaways
 
