@@ -269,6 +269,24 @@ Chapter 11 translates the general maxims of Rules 9–11 into specific criteria 
 
 **Being well-read.** Adler closes with a critique of modern reading culture: books are praised for novelty and sensationalism rather than truth, clarity, or power to enlighten. Being well-read is quality, not quantity — reading widely but not well deserves pity, not praise. Hobbes: "If I read as many books as most men do, I would be as dull-witted as they are." The great writers were great readers who read fewer books but read them well, becoming peers with their authors and, in turn, authors themselves.
 
+*2026-05-07*
+
+*From Chapter 12: Aids to Reading*
+
+Chapter 12 closes Part Two by turning to extrinsic aids — resources outside the book itself. The overarching rule is that you should seek outside help only after you have done your best to read intrinsically. Dependence on aids is discouraged; the more you do yourself, the less outside help you will ever need. Four categories of extrinsic aids are examined in turn.
+
+**Relevant experience.** There are two types: *common* experience, available to all humans in the ordinary course of life and relevant mainly to fiction and philosophy; and *special* experience, which must be actively arranged (laboratory work, controlled observation) and is required primarily for science. History requires both. A reliable test of whether you genuinely understand a point: can you give a concrete example of it?
+
+**Other books.** Great books are in prolonged conversation with one another and were written in a historical order that should be respected — reading earlier writers before later ones allows each subsequent author to be understood in full context. Just as the whole book is context for its parts, a tradition of books is context for each individual book within it. The chronological principle matters most for history and philosophy; it matters least for novels and plays, which, if genuinely good, can be read in isolation.
+
+**Commentaries and abstracts.** Use both sparingly and wisely. Two hazards: (1) commentators are not always right — handbooks and study guides are often misleading; (2) even correct commentaries may narrow understanding by channeling the reader toward the scholar's readings and away from discoveries the reader might have made independently. The governing rule: read any commentary only *after* reading the book. Reading it first puts you entirely at the commentator's mercy; reading it after places you on roughly equal footing. Abstracts are legitimate in two narrow cases only: jogging memory for a book already read, and screening books during syntopical reading to determine whether they are germane before committing to them. Habitual reliance on commentaries makes you a worse general reader — you will be unable to proceed without one.
+
+**Reference books.** Using any reference work well requires four things: (1) knowing what you want to know — your ignorance must be "a circle of darkness surrounded by light," meaning you must know enough to know what you are missing; (2) knowing where to find it — which reference work answers which kind of question; (3) knowing how the particular work is organized; (4) knowing that the information is considered knowable by the compilers. Reference books are useless to people who know nothing — they are not guides to the perplexed.
+
+**How to use a dictionary.** A dictionary is a self-help book about words. Words have four dimensions: (1) physical — spelling and pronunciation; (2) grammatical — role as part of speech; (3) semantic — the word as a sign carrying one or more related or unrelated meanings; (4) historical — the word as a human convention, with etymology and a history of usage including archaic, obsolete, current, and slang senses. A good dictionary answers all four kinds of questions. Two errors to avoid: using a dictionary to settle arguments about matters of opinion, and "swallowing the dictionary" — memorizing word lists unconnected to actual reading experience. The proper use is as an aid to texts that would otherwise be too difficult due to technical, archaic, or literary vocabulary.
+
+**How to use an encyclopedia.** An encyclopedia is about facts as a dictionary is about words. Facts have four properties: (1) propositional — facts are statements using words in combination, not physical things; knowing a fact means knowing its significance, not merely that it exists; (2) "true" — generally agreed-upon, not personal opinion; an encyclopedia that contains unsupported opinions is dishonest; (3) realistic — reflections of reality, whether informational singulars or unquestioned generalizations, not ideas or unverified theories; (4) conventional — what counts as a fact varies across cultures and epochs. Critically: an encyclopedia contains neither arguments nor poetry — the two major elements required for genuine understanding. It can supply information and some sense of how knowledge is ordered, but it cannot supply understanding. Always use the index before diving into volumes, to map the infra-structure of related entries. When seriously pursuing a subject, consult more than one encyclopedia, preferably from different historical periods.
+
 ## Key Ideas
 
 *2026-04-23*
@@ -406,6 +424,24 @@ Chapter 11 translates the general maxims of Rules 9–11 into specific criteria 
 - **Rules answer the four basic questions** — Q1 answered by Rules 1–4; Q2 answered by Rules 5–8; Q3 and Q4 answered by Rules 9–15.
 - **Modern reading culture is indifferent to truth** — books are praised for novelty, sensationalism, or topicality rather than truth, clarity, or power to enlighten; Adler frames this as a narrowing of the standard by which books should be judged.
 - **Being well-read is quality, not quantity** — reading widely but not well deserves pity, not praise; Hobbes: "If I read as many books as most men do, I would be as dull-witted as they are"; great writers were great readers of fewer books, read deeply enough to become peers with their authors.
+
+*2026-05-07*
+
+- **Extrinsic aids supplement intrinsic reading, never replace it** — outside help is warranted only after exhausting what the book itself can yield; the governing rule makes self-reliance the default and outside resources the last resort.
+- **Common vs. special experience** — common experience is available to all in ordinary life and is needed for fiction, philosophy, and history; special experience must be arranged deliberately and is required for science; history uniquely requires both.
+- **Giving a concrete example is the test of understanding** — if you cannot illustrate a proposition from real experience, you have grasped the words but not the meaning; exemplification is the minimum threshold of genuine comprehension.
+- **Chronological reading order is the right order** — great books form a conversation across time; reading earlier writers before later ones lets each author be understood in full context; the principle matters most for history and philosophy, least for fiction.
+- **Related books provide context the way the whole provides context for its parts** — just as you cannot fully understand a chapter without the book, you often cannot fully understand a book without its place in the tradition it belongs to.
+- **The after-reading rule for commentaries** — a commentary read before the primary text puts you entirely at the commentator's mercy; the same commentary read after places you on roughly equal terms; this rule is violated most often and most harmfully.
+- **Correct commentaries can still narrow understanding** — even an accurate guide channels interpretation toward the scholar's readings and closes off independent discoveries; dependence on commentaries is an intellectual liability, not an asset.
+- **Abstracts have two legitimate uses only** — jogging memory for a book already read, and screening books in syntopical reading to judge relevance before committing to read them; using an abstract as a substitute for the primary text is never legitimate.
+- **The four requirements for using any reference book** — knowing what you want to know; knowing which work answers that kind of question; knowing how the work is organized; knowing the information is considered knowable by the compilers; lacking any one makes the resource inaccessible.
+- **Words have four dimensions** — physical (spelling and pronunciation), grammatical (part of speech), semantic (the meanings the word carries as a sign), and historical (etymology and the record of archaic, obsolete, current, and slang usage).
+- **Swallowing the dictionary is the misuse of dictionaries** — memorizing word lists unconnected to experience produces words without meanings; dictionaries are for reading difficult texts, not for vocabulary drills.
+- **Facts have four properties** — they are propositional (statements, not things), true (generally agreed-upon, not opinion), realistic (reflections of reality), and conventional (what qualifies as a fact shifts across cultures and epochs).
+- **Encyclopedias contain neither arguments nor poetry** — these are the two primary elements required for genuine understanding; an encyclopedia can convey information and illustrate the ordering of knowledge, but it cannot produce understanding; it is a relatively unsatisfying instrument in the pursuit of wisdom.
+- **Use the index before the volumes** — the index reveals the infra-structure of related entries and is the correct entry point into any encyclopedia; starting with the volumes directly is like reading chapters without the table of contents.
+- **Compare encyclopedias from different periods** — facts are conventional; what is recorded as established knowledge in one era may differ from another; consulting multiple encyclopedias, especially across different historical periods, guards against treating the contingent as the timeless.
 
 ## Key Words
 
@@ -610,6 +646,28 @@ Chapter 11 translates the general maxims of Rules 9–11 into specific criteria 
 **Compulsion to Agree** — Adler's term for the reader's logical obligation: if you cannot identify Critiques 1, 2, or 3 on relevant matters, you must agree; there is "no freedom of will" about this; claiming disagreement after conceding sound premises and valid reasoning is expressing emotion or prejudice, not taking a critical position. *"If you have been unable to show that an author is uninformed, misinformed, or illogical on relevant matters, you simply cannot disagree."*
 
 **Suspension of Judgment** — the third critical position, appropriate when the reader finds Critique 4 (incompleteness) but not Critiques 1–3; a legitimate stance that declines to agree or disagree, reserving verdict until the subject is more fully developed by other authors or further inquiry.
+
+*2026-05-07*
+
+**Extrinsic Aids** — resources outside the book itself used to supplement intrinsic reading; the four types are relevant experience, other books, commentaries and abstracts, and reference books; the governing principle is to exhaust intrinsic reading before turning to them. *"The best extrinsic aid you can have is related reading."*
+
+**Intrinsic Reading** — reading the book itself using only what the book provides; contrasted with extrinsic reading; must always precede the use of outside aids; the author's antidote to commentary dependence. *"The best way to read a great book for the first time is with as little external assistance as possible."*
+
+**Common Experience** — experience available to all humans in the ordinary course of living, without special effort; the kind of experience relevant to fiction, philosophy, and history; available equally to ancient and modern readers. *"Historical knowledge… requires both common and special experience."*
+
+**Special Experience** — experience that must be actively arranged through controlled observation or experiment; required to verify the claims of natural science; distinguished from common experience, which is passively acquired in ordinary life. *"To get it, you must do work in a laboratory, make observations under special conditions."*
+
+**Chronological Reading Order** — reading books in the sequence in which they were written so that earlier writers illuminate later ones; the proper way to use other books as extrinsic aids; most critical in history and philosophy. *"You will read Plato better if you read him before Aristotle, Descartes before Spinoza and Leibniz, Locke before Hume, Hume before Kant."*
+
+**Commentary** — a scholarly work interpreting or evaluating a primary text; should be read only after the primary text; even correct commentaries risk limiting understanding by directing the reader toward the commentator's own readings; handbooks and study guides are frequently misleading. *"If you read a commentary before you read the book, you will be reading it through the commentator's eyes."*
+
+**Abstract** — a condensed summary of a book's contents; legitimate in two narrow cases only: refreshing memory for a book already read, and screening books during syntopical reading; never a substitute for reading the primary text. *"If you have read a book and used an abstract to refresh your memory, the abstract is harmless."*
+
+**Swallowing the Dictionary** — Adler's term for the error of memorizing disconnected word lists in the hope of expanding vocabulary; produces knowledge of words without knowledge of their meaning in actual use; the opposite of using a dictionary as an aid to reading. *"Do not try to 'swallow' the dictionary."*
+
+**Four Dimensions of Words** — the four aspects every word possesses: (1) physical — spelling and pronunciation; (2) grammatical — its role as a part of speech; (3) semantic — the meanings it carries as a sign, which may be related or unrelated, proper or common, concrete or abstract; (4) historical — its etymology and the record of archaic, obsolete, current, and slang usage. *"Words can be considered in any of four ways."*
+
+**Four Properties of Facts** — (1) propositional: facts are statements using words in combination, not physical things — knowing a fact means knowing its significance; (2) true: generally agreed-upon and not personal opinion; (3) realistic: reflections of reality, not unverified ideas or theories; (4) conventional: what counts as a fact varies across cultures and epochs. *"Facts are propositions — statements that use words in combination."*
 
 ## Personal Takeaways
 
