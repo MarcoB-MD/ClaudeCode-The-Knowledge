@@ -260,6 +260,8 @@ a { color: inherit; text-decoration: none; }
 .pdf-btn:hover { background: #fee2e2; border-color: #be123c; }
 .img-btn { color: #0369a1; border-color: #7dd3fc; background: #f0f9ff; }
 .img-btn:hover { background: #e0f2fe; border-color: #0369a1; }
+.transcript-btn { color: #0d9488; border-color: #5eead4; background: #f0fdfa; }
+.transcript-btn:hover { background: #ccfbf1; border-color: #0d9488; }
 
 /* ── Empty state ── */
 .empty-state { text-align: center; padding: 4rem 2rem; color: #78716c; grid-column: 1/-1; }
@@ -703,6 +705,7 @@ function renderEntryPage(entry) {
         ${tags ? `<div class="entry-tags">${tags}</div>` : ''}
         ${entry.pdf_path ? `<a class="pdf-btn" href="${entry.type_folder === 'books' ? '/book-pdfs/' : '/pdfs/'}${encodeURIComponent(entry.pdf_path)}" target="_blank" rel="noopener">📄 Open PDF</a>` : ''}
         ${(entry.note_images || []).map(img => `<a class="pdf-btn img-btn" href="/notes/${encodeURIComponent(img)}" target="_blank" rel="noopener">🖼 ${img}</a>`).join('')}
+        ${entry.transcript_path ? `<a class="pdf-btn transcript-btn" href="/transcripts/${encodeURIComponent(entry.transcript_path)}" target="_blank" rel="noopener">📝 Transcript</a>` : ''}
       </aside>
       <div class="entry-body">${html}</div>
     </div>
@@ -791,6 +794,39 @@ const server = http.createServer((req, res) => {
       return res.end(fs.readFileSync(fp));
     }
     res.writeHead(404); return res.end('Image not found');
+  }
+
+  const transcriptM = pathname.match(/^\/transcripts\/([^/]+\.md)$/i);
+  if (transcriptM) {
+    const fname = path.basename(decodeURIComponent(transcriptM[1]));
+    const fp = path.join(ROOT, 'transcripts', fname);
+    if (fs.existsSync(fp)) {
+      const content = fs.readFileSync(fp, 'utf-8');
+      const html = marked(content);
+      const title = fname.replace(/\.md$/, '').replace(/_/g, ' ');
+      res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+      return res.end(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${title} — Transcript</title>
+  <style>${CSS}</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-logo" href="/" style="text-decoration:none;color:inherit;">Knowledge <span>Base</span></a>
+    </div>
+  </header>
+  <div class="page">
+    <button class="close-btn" onclick="history.back()">← Back</button>
+    <div class="entry-body" style="max-width:780px;">${html}</div>
+  </div>
+</body>
+</html>`);
+    }
+    res.writeHead(404); return res.end('Transcript not found');
   }
 
   res.writeHead(404); res.end('Not found');
