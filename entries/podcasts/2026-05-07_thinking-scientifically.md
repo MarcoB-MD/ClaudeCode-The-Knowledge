@@ -3,7 +3,7 @@ title: "Thinking scientifically: why it's hard, why it matters, and a practical 
 author: Peter Attia
 source_type: podcast
 date_published: 2026-04-27
-date_added: 2026-05-07
+date_added: 2026-05-13
 date_started: 2026-05-07
 url: https://peterattiamd.com/thinkingscientifically/
 tags:

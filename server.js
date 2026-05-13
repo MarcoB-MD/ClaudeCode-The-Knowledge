@@ -492,7 +492,8 @@ function renderIndexPage(entries, filterType, filterTag, filterTag2, search) {
       const toISO = v => !v ? '' : v instanceof Date ? v.toISOString().slice(0,10) : String(v);
       const da = lastNotesDate(a.body) || toISO(a.date_added);
       const db = lastNotesDate(b.body) || toISO(b.date_added);
-      return db.localeCompare(da);
+      const dateDiff = db.localeCompare(da);
+      return dateDiff;
     });
   const completed  = filtered.filter(e =>  e.date_ended);
 

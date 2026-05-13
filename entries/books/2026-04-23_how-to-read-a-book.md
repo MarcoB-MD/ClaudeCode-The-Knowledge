@@ -269,7 +269,7 @@ Chapter 11 translates the general maxims of Rules 9–11 into specific criteria 
 
 **Being well-read.** Adler closes with a critique of modern reading culture: books are praised for novelty and sensationalism rather than truth, clarity, or power to enlighten. Being well-read is quality, not quantity — reading widely but not well deserves pity, not praise. Hobbes: "If I read as many books as most men do, I would be as dull-witted as they are." The great writers were great readers who read fewer books but read them well, becoming peers with their authors and, in turn, authors themselves.
 
-*2026-05-07*
+*2026-05-13*
 
 *From Chapter 12: Aids to Reading*
 
@@ -425,7 +425,7 @@ Chapter 12 closes Part Two by turning to extrinsic aids — resources outside th
 - **Modern reading culture is indifferent to truth** — books are praised for novelty, sensationalism, or topicality rather than truth, clarity, or power to enlighten; Adler frames this as a narrowing of the standard by which books should be judged.
 - **Being well-read is quality, not quantity** — reading widely but not well deserves pity, not praise; Hobbes: "If I read as many books as most men do, I would be as dull-witted as they are"; great writers were great readers of fewer books, read deeply enough to become peers with their authors.
 
-*2026-05-07*
+*2026-05-13*
 
 - **Extrinsic aids supplement intrinsic reading, never replace it** — outside help is warranted only after exhausting what the book itself can yield; the governing rule makes self-reliance the default and outside resources the last resort.
 - **Common vs. special experience** — common experience is available to all in ordinary life and is needed for fiction, philosophy, and history; special experience must be arranged deliberately and is required for science; history uniquely requires both.
@@ -647,7 +647,7 @@ Chapter 12 closes Part Two by turning to extrinsic aids — resources outside th
 
 **Suspension of Judgment** — the third critical position, appropriate when the reader finds Critique 4 (incompleteness) but not Critiques 1–3; a legitimate stance that declines to agree or disagree, reserving verdict until the subject is more fully developed by other authors or further inquiry.
 
-*2026-05-07*
+*2026-05-13*
 
 **Extrinsic Aids** — resources outside the book itself used to supplement intrinsic reading; the four types are relevant experience, other books, commentaries and abstracts, and reference books; the governing principle is to exhaust intrinsic reading before turning to them. *"The best extrinsic aid you can have is related reading."*
 
