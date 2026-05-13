@@ -5,6 +5,7 @@ source_type: audiobook
 platform: spotify
 date_published: 1954-01-01
 date_started: 2026-04-26
+date_ended: 2026-05-13
 date_added: 2026-04-26
 tags:
   - consciousness
